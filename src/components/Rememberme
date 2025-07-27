@@ -1,0 +1,5 @@
+https://opentdb.com/api.php
+
+eg:-
+https://opentdb.com/api.php?amount=10&category=17&difficulty=medium&type=multiple
+
