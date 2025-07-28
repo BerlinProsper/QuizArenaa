@@ -24,7 +24,7 @@ const styles = {
     color: '#2c3e50',
   },
   highlight: {
-    color: '#0f8387ff',
+    color: '#df2468',
   },
 };
 

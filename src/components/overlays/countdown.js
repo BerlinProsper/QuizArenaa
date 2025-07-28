@@ -18,7 +18,7 @@ export default function CircularTimer({ limit, resetKey }) {
       colors={['#004777', '#A30000']}
       colorsTime={[10, 0]}
       onComplete={() => {
-        setNextTimer(false); // trigger logic in parent
+        setNextTimer(false); 
         return { shouldRepeat: false };
       }}
     >

@@ -4,7 +4,6 @@ import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
 import styled, { useTheme } from 'styled-components';
-import Footer from "./components/Footer/index.js";
 import LoginForm from "./components/Login/index.js";
 import Home from "./components/Home/index.js";
 import { useMyContext } from "./context/Mycontexts.js";
@@ -16,6 +15,10 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GameSpace from "./components/GameSpace/index.js";
 import { AddRounded } from "@mui/icons-material";
+import Congratulations from "./components/overlays/Congratulations.js";
+import Profile from "./components/Profile/Profile.js";
+import Guide from "./components/Guide/guide.js";
+import MyScore from "./components/ScoreBoard/myscore.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -60,7 +63,7 @@ useEffect(() => {
   console.log("myusername", user  );
 return (
   <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-
+<MyScore/>
     <BrowserRouter>
         <Navbar />
       <Routes>
@@ -76,9 +79,11 @@ return (
             )
           }
         />
+           <Route path="/profile" element={<Profile/>} />
+        <Route path="/game" element={<GameSpace />} />
+        <Route path="/guide" element={<Guide/>} />
         <Route path="/game" element={<GameSpace />} />
       </Routes>
-    <Footer />
     </BrowserRouter>
   </ThemeProvider>
 );
@@ -89,10 +94,9 @@ export default App;
 
 
 
-//Timer icon for next level - on Timer off- Game over
-//Congratulations on each level complete & if u beat highscore or ur best score
-//next level instruction card
+
 //score board and profile board.
 //And Guid board about levels and how to play
 //Add more category quetions
+//Better Timer icon
 

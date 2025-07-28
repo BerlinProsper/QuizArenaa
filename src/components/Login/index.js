@@ -70,7 +70,7 @@ const styles = {
     padding: '20px',
   },
   form: {
-   background: 'rgba(237, 239, 243, 0.3)', // 30% opacity, very transparent
+   background: 'rgba(237, 239, 243, 0.3)',
   width: '330px',
 
     padding: '40px 35px',
@@ -81,7 +81,7 @@ const styles = {
     gap: '10px',
   },
   input: {
-     background: 'rgba(237, 239, 243, 0.3)', // 30% opacity, very transparent
+     background: 'rgba(237, 239, 243, 0.3)', 
 
     padding: '14px',
     fontSize: '1rem',

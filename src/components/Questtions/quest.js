@@ -2471,3 +2471,2972 @@ export const EasyHistory = [
   }
 ]
 
+export const ModerateAnimals = [
+  {
+    "quest": "What is the largest land mammal?",
+    "ans": {
+      "wrong1": "Giraffe",
+      "wrong2": "Hippo",
+      "wrong3": "Rhino",
+      "correct": "Elephant"
+    }
+  },
+  {
+    "quest": "Which bird is known for mimicking human speech?",
+    "ans": {
+      "wrong1": "Crow",
+      "wrong2": "Pigeon",
+      "wrong3": "Sparrow",
+      "correct": "Parrot"
+    }
+  },
+  {
+    "quest": "Which marine creature has eight arms?",
+    "ans": {
+      "wrong1": "Jellyfish",
+      "wrong2": "Sea star",
+      "wrong3": "Squid",
+      "correct": "Octopus"
+    }
+  },
+  {
+    "quest": "What is a kangaroo’s baby called?",
+    "ans": {
+      "wrong1": "Pup",
+      "wrong2": "Calf",
+      "wrong3": "Kid",
+      "correct": "Joey"
+    }
+  },
+  {
+    "quest": "Which animal is known as the ship of the desert?",
+    "ans": {
+      "wrong1": "Horse",
+      "wrong2": "Camelopard",
+      "wrong3": "Donkey",
+      "correct": "Camel"
+    }
+  },
+  {
+    "quest": "What mammal is capable of true flight?",
+    "ans": {
+      "wrong1": "Flying squirrel",
+      "wrong2": "Sugar glider",
+      "wrong3": "Colugo",
+      "correct": "Bat"
+    }
+  },
+  {
+    "quest": "Which large cat is known for its spots?",
+    "ans": {
+      "wrong1": "Lion",
+      "wrong2": "Tiger",
+      "wrong3": "Cheetah",
+      "correct": "Leopard"
+    }
+  },
+  {
+    "quest": "What do you call a group of lions?",
+    "ans": {
+      "wrong1": "Pack",
+      "wrong2": "School",
+      "wrong3": "Herd",
+      "correct": "Pride"
+    }
+  },
+  {
+    "quest": "Which bird is a universal symbol of peace?",
+    "ans": {
+      "wrong1": "Sparrow",
+      "wrong2": "Crow",
+      "wrong3": "Eagle",
+      "correct": "Dove"
+    }
+  },
+  {
+    "quest": "What is the fastest land animal?",
+    "ans": {
+      "wrong1": "Lion",
+      "wrong2": "Horse",
+      "wrong3": "Ostrich",
+      "correct": "Cheetah"
+    }
+  },
+  {
+    "quest": "Which animal is famous for its black and white stripes?",
+    "ans": {
+      "wrong1": "Giraffe",
+      "wrong2": "Okapi",
+      "wrong3": "Tiger",
+      "correct": "Zebra"
+    }
+  },
+  {
+    "quest": "What is a male deer called?",
+    "ans": {
+      "wrong1": "Doe",
+      "wrong2": "Vixen",
+      "wrong3": "Sow",
+      "correct": "Stag"
+    }
+  },
+  {
+    "quest": "Which creature carries its young in a pouch?",
+    "ans": {
+      "wrong1": "Platypus",
+      "wrong2": "Echidna",
+      "wrong3": "Opossum",
+      "correct": "Kangaroo"
+    }
+  },
+  {
+    "quest": "What’s the largest species of shark?",
+    "ans": {
+      "wrong1": "Great White Shark",
+      "wrong2": "Hammerhead Shark",
+      "wrong3": "Tiger Shark",
+      "correct": "Whale Shark"
+    }
+  },
+  {
+    "quest": "Which animal is known for rolling logs of dung?",
+    "ans": {
+      "wrong1": "Termite",
+      "wrong2": "Elephant",
+      "wrong3": "Ant",
+      "correct": "Dung beetle"
+    }
+  },
+  {
+    "quest": "Which reptile changes color for camouflage?",
+    "ans": {
+      "wrong1": "Snake",
+      "wrong2": "Iguana",
+      "wrong3": "Gecko",
+      "correct": "Chameleon"
+    }
+  },
+  {
+    "quest": "Which bird lays the largest egg?",
+    "ans": {
+      "wrong1": "Ostrich",
+      "wrong2": "Eagle",
+      "wrong3": "Penguin",
+      "correct": "Ostrich"
+    }
+  },
+  {
+    "quest": "What marine mammals are known for their intelligence and echolocation?",
+    "ans": {
+      "wrong1": "Whales",
+      "wrong2": "Seals",
+      "wrong3": "Dolphins",
+      "correct": "Dolphins"
+    }
+  },
+  {
+    "quest": "What insect produces honey?",
+    "ans": {
+      "wrong1": "Butterfly",
+      "wrong2": "Beetle",
+      "wrong3": "Wasp",
+      "correct": "Honeybee"
+    }
+  },
+  {
+    "quest": "Which amphibian can regenerate limbs?",
+    "ans": {
+      "wrong1": "Frog",
+      "wrong2": "Toad",
+      "wrong3": "Newt",
+      "correct": "Salamander"
+    }
+  },
+  {
+    "quest": "What is the tallest animal?",
+    "ans": {
+      "wrong1": "Elephant",
+      "wrong2": "Kangaroo",
+      "wrong3": "Hippo",
+      "correct": "Giraffe"
+    }
+  },
+  {
+    "quest": "Which mammal is known for its stripes and living in water?",
+    "ans": {
+      "wrong1": "Tiger",
+      "wrong2": "Elephant",
+      "wrong3": "Giraffe",
+      "correct": "Zebra (not aquatic)" 
+    }
+  },
+  {
+    "quest": "Which flightless bird is native to Antarctica?",
+    "ans": {
+      "wrong1": "Ostrich",
+      "wrong2": "Emu",
+      "wrong3": "Rhea",
+      "correct": "Penguin"
+    }
+  },
+  {
+    "quest": "Which animal is the largest mammal in the ocean?",
+    "ans": {
+      "wrong1": "Shark",
+      "wrong2": "Elephant Seal",
+      "wrong3": "Blue Whale",
+      "correct": "Blue Whale"
+    }
+  },
+  {
+    "quest": "Which reptile has a shell it can pull into?",
+    "ans": {
+      "wrong1": "Snake",
+      "wrong2": "Lizard",
+      "wrong3": "Chameleon",
+      "correct": "Turtle"
+    }
+  },
+  {
+    "quest": "What is the only mammal that lays eggs?",
+    "ans": {
+      "wrong1": "Platypus",
+      "wrong2": "Echidna",
+      "wrong3": "Kangaroo",
+      "correct": "Monotremes"
+    }
+  },
+  {
+    "quest": "Which animal has a trunk?",
+    "ans": {
+      "wrong1": "Rhino",
+      "wrong2": "Giraffe",
+      "wrong3": "Hippopotamus",
+      "correct": "Elephant"
+    }
+  },
+  {
+    "quest": "Which animal is known for hopping and is native to Australia?",
+    "ans": {
+      "wrong1": "Opossum",
+      "wrong2": "Koala",
+      "wrong3": "Wallaby",
+      "correct": "Kangaroo"
+    }
+  },
+  {
+    "quest": "What is the largest land carnivore?",
+    "ans": {
+      "wrong1": "Lion",
+      "wrong2": "Tiger",
+      "wrong3": "Grizzly Bear",
+      "correct": "Polar Bear"
+    }
+  },
+  {
+    "quest": "Which insect has a colorful tail display to attract mates?",
+    "ans": {
+      "wrong1": "Dragonfly",
+      "wrong2": "Butterfly",
+      "wrong3": "Beetle",
+      "correct": "Peacock"
+    }
+  },
+  {
+    "quest": "Which aquatic mammal is known for tusks and whiskers?",
+    "ans": {
+      "wrong1": "Seal",
+      "wrong2": "Manatee",
+      "wrong3": "Walrus",
+      "correct": "Walrus"
+    }
+  },
+  {
+    "quest": "Which animal sleeps standing up?",
+    "ans": {
+      "wrong1": "Elephant",
+      "wrong2": "Lion",
+      "wrong3": "Giraffe",
+      "correct": "Horse"
+    }
+  },
+  {
+    "quest": "Which bird migrates the longest distance?",
+    "ans": {
+      "wrong1": "Swan",
+      "wrong2": "Eagle",
+      "wrong3": "Pigeon",
+      "correct": "Arctic Tern"
+    }
+  },
+  {
+    "quest": "What is the only bird that can fly backward?",
+    "ans": {
+      "wrong1": "Crow",
+      "wrong2": "Falcon",
+      "wrong3": "Parrot",
+      "correct": "Hummingbird"
+    }
+  },
+  {
+    "quest": "Which animal is known as the king of the jungle?",
+    "ans": {
+      "wrong1": "Tiger",
+      "wrong2": "Elephant",
+      "wrong3": "Cheetah",
+      "correct": "Lion"
+    }
+  },
+  {
+    "quest": "What reptile can go without food for years?",
+    "ans": {
+      "wrong1": "Snake",
+      "wrong2": "Gecko",
+      "wrong3": "Iguana",
+      "correct": "Turtle"
+    }
+  },
+  {
+    "quest": "Which primate is humans’ closest living relative?",
+    "ans": {
+      "wrong1": "Baboon",
+      "wrong2": "Orangutan",
+      "wrong3": "Gibbon",
+      "correct": "Chimpanzee"
+    }
+  },
+  {
+    "quest": "What animal is known for its pouch and hisses?",
+    "ans": {
+      "wrong1": "Kangaroo",
+      "wrong2": "Wombat",
+      "wrong3": "Tasmanian devil",
+      "correct": "Koala"
+    }
+  },
+  {
+    "quest": "Which bird is the world’s largest by wingspan?",
+    "ans": {
+      "wrong1": "Swan",
+      "wrong2": "Eagle",
+      "wrong3": "Albatross",
+      "correct": "Wandering Albatross"
+    }
+  },
+  {
+    "quest": "What amphibian has smooth slippery skin and lives in water and land?",
+    "ans": {
+      "wrong1": "Toad",
+      "wrong2": "Iguana",
+      "wrong3": "Salamander",
+      "correct": "Frog"
+    }
+  },
+  {
+    "quest": "Which termite-like creature builds huge mounds in Africa?",
+    "ans": {
+      "wrong1": "Ants",
+      "wrong2": "Beetles",
+      "wrong3": "Locusts",
+      "correct": "Termite"
+    }
+  },
+  {
+    "quest": "Which large mammal has long tusks and a trunk?",
+    "ans": {
+      "wrong1": "Rhino",
+      "wrong2": "Hippo",
+      "wrong3": "Giraffe",
+      "correct": "Elephant"
+    }
+  },
+  {
+    "quest": "Which nocturnal bird is known for its hooting?",
+    "ans": {
+      "wrong1": "Robin",
+      "wrong2": "Hawk",
+      "wrong3": "Crow",
+      "correct": "Owl"
+    }
+  },
+  {
+    "quest": "Which animal uses electroreception to hunt in murky water?",
+    "ans": {
+      "wrong1": "Trout",
+      "wrong2": "Barracuda",
+      "wrong3": "Tuna",
+      "correct": "Electric eel"
+    }
+  },
+  {
+    "quest": "Which reptile sheds its skin periodically?",
+    "ans": {
+      "wrong1": "Frog",
+      "wrong2": "Turtle",
+      "wrong3": "Crocodile",
+      "correct": "Snake"
+    }
+  },
+  {
+    "quest": "Which bird can dive over 200 feet underwater?",
+    "ans": {
+      "wrong1": "Swan",
+      "wrong2": "Seagull",
+      "wrong3": "Pelican",
+      "correct": "Penguin"
+    }
+  },
+  {
+    "quest": "Which insect is known as a pest that eats wood?",
+    "ans": {
+      "wrong1": "Butterfly",
+      "wrong2": "Bee",
+      "wrong3": "Moth",
+      "correct": "Termite"
+    }
+  },
+  {
+    "quest": "Which animal is known for its strong bite force and armored shell?",
+    "ans": {
+      "wrong1": "Snapping turtle",
+      "wrong2": "Alligator",
+      "wrong3": "Shark",
+      "correct": "Crocodile"
+    }
+  },
+  {
+    "quest": "Which nocturnal mammal uses echolocation to fly?",
+    "ans": {
+      "wrong1": "Flying squirrel",
+      "wrong2": "Barn owl",
+      "wrong3": "Bat",
+      "correct": "Bat"
+    }
+  },
+  {
+    "quest": "What creature resembles a lizard but has a frill around its neck?",
+    "ans": {
+      "wrong1": "Chameleon",
+      "wrong2": "Anole",
+      "wrong3": "Snake",
+      "correct": "Frilled lizard"
+    }
+  },
+  {
+    "quest": "Which animal sleeps while floating on its back in the ocean?",
+    "ans": {
+      "wrong1": "Seal",
+      "wrong2": "Dolphin",
+      "wrong3": "Whale",
+      "correct": "Sea otter"
+    }
+  },
+  {
+    "quest": "Which bird uses tools to extract insects from trees?",
+    "ans": {
+      "wrong1": "Sparrow",
+      "wrong2": "Robin",
+      "wrong3": "Crow",
+      "correct": "Woodpecker"
+    }
+  },
+  {
+    "quest": "Which animal hibernates through winter in cold climates?",
+    "ans": {
+      "wrong1": "Horse",
+      "wrong2": "Giraffe",
+      "wrong3": "Elephant",
+      "correct": "Bear"
+    }
+  }
+]
+
+export const EasyAnimals = [
+  {
+    "quest": "What animal says 'meow'?",
+    "ans": {
+      "wrong1": "Dog",
+      "wrong2": "Cow",
+      "wrong3": "Sheep",
+      "correct": "Cat"
+    }
+  },
+  {
+    "quest": "Which animal is known as man's best friend?",
+    "ans": {
+      "wrong1": "Cat",
+      "wrong2": "Fish",
+      "wrong3": "Parrot",
+      "correct": "Dog"
+    }
+  },
+  {
+    "quest": "What animal lives in a bowl and swims?",
+    "ans": {
+      "wrong1": "Hamster",
+      "wrong2": "Bird",
+      "wrong3": "Frog",
+      "correct": "Fish"
+    }
+  },
+  {
+    "quest": "Which animal is known for having a long neck?",
+    "ans": {
+      "wrong1": "Elephant",
+      "wrong2": "Camel",
+      "wrong3": "Zebra",
+      "correct": "Giraffe"
+    }
+  },
+  {
+    "quest": "What animal goes 'woof'?",
+    "ans": {
+      "wrong1": "Cat",
+      "wrong2": "Goat",
+      "wrong3": "Duck",
+      "correct": "Dog"
+    }
+  },
+  {
+    "quest": "Which animal is big, gray, and has a trunk?",
+    "ans": {
+      "wrong1": "Hippo",
+      "wrong2": "Rhino",
+      "wrong3": "Giraffe",
+      "correct": "Elephant"
+    }
+  },
+  {
+    "quest": "Which animal hops and has a pouch?",
+    "ans": {
+      "wrong1": "Koala",
+      "wrong2": "Wombat",
+      "wrong3": "Wallaby",
+      "correct": "Kangaroo"
+    }
+  },
+  {
+    "quest": "What animal says 'moo'?",
+    "ans": {
+      "wrong1": "Pig",
+      "wrong2": "Goat",
+      "wrong3": "Sheep",
+      "correct": "Cow"
+    }
+  },
+  {
+    "quest": "Which bird is known for laying eggs?",
+    "ans": {
+      "wrong1": "Bat",
+      "wrong2": "Cat",
+      "wrong3": "Horse",
+      "correct": "Hen"
+    }
+  },
+  {
+    "quest": "Which animal quacks and swims?",
+    "ans": {
+      "wrong1": "Goose",
+      "wrong2": "Penguin",
+      "wrong3": "Ostrich",
+      "correct": "Duck"
+    }
+  },
+  {
+    "quest": "What black and white bear eats bamboo?",
+    "ans": {
+      "wrong1": "Koala",
+      "wrong2": "Polar bear",
+      "wrong3": "Grizzly bear",
+      "correct": "Panda"
+    }
+  },
+  {
+    "quest": "Which farm animal oinks?",
+    "ans": {
+      "wrong1": "Cow",
+      "wrong2": "Sheep",
+      "wrong3": "Duck",
+      "correct": "Pig"
+    }
+  },
+  {
+    "quest": "What animal has a big shell and moves slowly?",
+    "ans": {
+      "wrong1": "Crab",
+      "wrong2": "Frog",
+      "wrong3": "Snail",
+      "correct": "Turtle"
+    }
+  },
+  {
+    "quest": "Which insect has wings and makes honey?",
+    "ans": {
+      "wrong1": "Fly",
+      "wrong2": "Ant",
+      "wrong3": "Wasp",
+      "correct": "Bee"
+    }
+  },
+  {
+    "quest": "What do you call a baby dog?",
+    "ans": {
+      "wrong1": "Kitten",
+      "wrong2": "Cub",
+      "wrong3": "Foal",
+      "correct": "Puppy"
+    }
+  },
+  {
+    "quest": "Which animal has black and white stripes?",
+    "ans": {
+      "wrong1": "Panda",
+      "wrong2": "Tiger",
+      "wrong3": "Cheetah",
+      "correct": "Zebra"
+    }
+  },
+  {
+    "quest": "Which bird is often kept as a colorful pet and can mimic sounds?",
+    "ans": {
+      "wrong1": "Owl",
+      "wrong2": "Sparrow",
+      "wrong3": "Penguin",
+      "correct": "Parrot"
+    }
+  },
+  {
+    "quest": "What animal is known for being slow and having three toes?",
+    "ans": {
+      "wrong1": "Turtle",
+      "wrong2": "Koala",
+      "wrong3": "Snail",
+      "correct": "Sloth"
+    }
+  },
+  {
+    "quest": "Which animal barks, guards homes, and loves bones?",
+    "ans": {
+      "wrong1": "Cat",
+      "wrong2": "Hamster",
+      "wrong3": "Bird",
+      "correct": "Dog"
+    }
+  },
+  {
+    "quest": "What animal has wings, feathers, and can usually fly?",
+    "ans": {
+      "wrong1": "Frog",
+      "wrong2": "Snake",
+      "wrong3": "Cat",
+      "correct": "Bird"
+    }
+  }
+]
+ export const ModeratePolitics = [
+  {
+    "quest": "Who is the current Secretary-General of the United Nations?",
+    "ans": {
+      "wrong1": "Ban Ki-moon",
+      "wrong2": "Boutros Boutros-Ghali",
+      "wrong3": "Kofi Annan",
+      "correct": "António Guterres"
+    }
+  },
+  {
+    "quest": "Which body of government is responsible for making laws in the United States?",
+    "ans": {
+      "wrong1": "Supreme Court",
+      "wrong2": "President",
+      "wrong3": "Cabinet",
+      "correct": "Congress"
+    }
+  },
+  {
+    "quest": "What is the lower house of the UK Parliament called?",
+    "ans": {
+      "wrong1": "House of Lords",
+      "wrong2": "Privy Council",
+      "wrong3": "House of Commons",
+      "correct": "House of Commons"
+    }
+  },
+  {
+    "quest": "Who was the first female Prime Minister of the UK?",
+    "ans": {
+      "wrong1": "Theresa May",
+      "wrong2": "Margaret Beckett",
+      "wrong3": "Edith Canning",
+      "correct": "Margaret Thatcher"
+    }
+  },
+  {
+    "quest": "What is the capital city of India?",
+    "ans": {
+      "wrong1": "Mumbai",
+      "wrong2": "Chennai",
+      "wrong3": "Kolkata",
+      "correct": "New Delhi"
+    }
+  },
+  {
+    "quest": "Which amendment to the U.S. Constitution abolished slavery?",
+    "ans": {
+      "wrong1": "13th Amendment",
+      "wrong2": "14th Amendment",
+      "wrong3": "15th Amendment",
+      "correct": "13th Amendment"
+    }
+  },
+  {
+    "quest": "What form of government does Iran have?",
+    "ans": {
+      "wrong1": "Absolute monarchy",
+      "wrong2": "Secular republic",
+      "wrong3": "Military dictatorship",
+      "correct": "Islamic Republic"
+    }
+  },
+  {
+    "quest": "Which country is the oldest continuous democracy?",
+    "ans": {
+      "wrong1": "France",
+      "wrong2": "United States",
+      "wrong3": "India",
+      "correct": "Isle of Man"
+    }
+  },
+  {
+    "quest": "Which body leads the European Union?",
+    "ans": {
+      "wrong1": "EU Parliament",
+      "wrong2": "European Court",
+      "wrong3": "European Central Bank",
+      "correct": "European Commission"
+    }
+  },
+  {
+    "quest": "How many justices serve on the U.S. Supreme Court?",
+    "ans": {
+      "wrong1": "7",
+      "wrong2": "8",
+      "wrong3": "10",
+      "correct": "9"
+    }
+  },
+  {
+    "quest": "Who was the first president of South Africa elected after apartheid?",
+    "ans": {
+      "wrong1": "Jacob Zuma",
+      "wrong2": "Thabo Mbeki",
+      "wrong3": "Cyril Ramaphosa",
+      "correct": "Nelson Mandela"
+    }
+  },
+  {
+    "quest": "What political ideology emphasizes free markets and limited government intervention?",
+    "ans": {
+      "wrong1": "Socialism",
+      "wrong2": "Communism",
+      "wrong3": "Collectivism",
+      "correct": "Libertarianism"
+    }
+  },
+  {
+    "quest": "What is the name for Germany's federal parliament lower house?",
+    "ans": {
+      "wrong1": "Bundesrat",
+      "wrong2": "Reichstag",
+      "wrong3": "Landtag",
+      "correct": "Bundestag"
+    }
+  },
+  {
+    "quest": "What was the peaceful transition of power in South Africa in 1994?",
+    "ans": {
+      "wrong1": "Zulu Uprising",
+      "wrong2": "Dakar Declaration",
+      "wrong3": "Cape Forum",
+      "correct": "End of apartheid"
+    }
+  },
+  {
+    "quest": "Which Asian country is recognized as the only communist state with a market economy?",
+    "ans": {
+      "wrong1": "China",
+      "wrong2": "Cuba",
+      "wrong3": "North Korea",
+      "correct": "Vietnam"
+    }
+  },
+  {
+    "quest": "What do we call the division of powers between federal and state governments in the U.S.?",
+    "ans": {
+      "wrong1": "Confederation",
+      "wrong2": "Centralism",
+      "wrong3": "Authoritarianism",
+      "correct": "Federalism"
+    }
+  },
+  {
+    "quest": "Which U.S. President issued the Emancipation Proclamation?",
+    "ans": {
+      "wrong1": "Ulysses S. Grant",
+      "wrong2": "Andrew Johnson",
+      "wrong3": "James Buchanan",
+      "correct": "Abraham Lincoln"
+    }
+  },
+  {
+    "quest": "The political ideology advocating state ownership of property is called?",
+    "ans": {
+      "wrong1": "Liberalism",
+      "wrong2": "Conservatism",
+      "wrong3": "Fascism",
+      "correct": "Socialism"
+    }
+  },
+  {
+    "quest": "Who signs a bill into law in the U.S.?",
+    "ans": {
+      "wrong1": "Vice President",
+      "wrong2": "Speaker of the House",
+      "wrong3": "Senate Majority Leader",
+      "correct": "President"
+    }
+  },
+  {
+    "quest": "What system of government has a monarch but real power resides with an elected body?",
+    "ans": {
+      "wrong1": "Absolute monarchy",
+      "wrong2": "Oligarchy",
+      "wrong3": "Theocracy",
+      "correct": "Constitutional monarchy"
+    }
+  },
+  {
+    "quest": "Which international tribunal tries individuals for war crimes?",
+    "ans": {
+      "wrong1": "International Court of Justice",
+      "wrong2": "World Human Rights Court",
+      "wrong3": "Permanent Court of Arbitration",
+      "correct": "International Criminal Court"
+    }
+  },
+  {
+    "quest": "What does NATO stand for?",
+    "ans": {
+      "wrong1": "North Atlantic Treaty Organization",
+      "wrong2": "National Atlantic Treaty Organization",
+      "wrong3": "North American Trade Organization",
+      "correct": "North Atlantic Treaty Organization"
+    }
+  },
+  {
+    "quest": "Which Indian leader launched the non-violent resistance movement against British rule?",
+    "ans": {
+      "wrong1": "Subhas Chandra Bose",
+      "wrong2": "Jawaharlal Nehru",
+      "wrong3": "Bhagat Singh",
+      "correct": "Mahatma Gandhi"
+    }
+  },
+  {
+    "quest": "What is the capital of Canada?",
+    "ans": {
+      "wrong1": "Toronto",
+      "wrong2": "Montreal",
+      "wrong3": "Vancouver",
+      "correct": "Ottawa"
+    }
+  },
+  {
+    "quest": "Which constitutional document begins with 'We the People'?",
+    "ans": {
+      "wrong1": "Declaration of Independence",
+      "wrong2": "Federalist Papers",
+      "wrong3": "Bill of Rights",
+      "correct": "U.S. Constitution"
+    }
+  },
+  {
+    "quest": "Who is the head of state in France?",
+    "ans": {
+      "wrong1": "Prime Minister",
+      "wrong2": "Senate President",
+      "wrong3": "Speaker of the National Assembly",
+      "correct": "President"
+    }
+  },
+  {
+    "quest": "Which US state was the last to abolish slavery before the 13th amendment?",
+    "ans": {
+      "wrong1": "Georgia",
+      "wrong2": "Alabama",
+      "wrong3": "Mississippi",
+      "correct": "Mississippi"
+    }
+  },
+  {
+    "quest": "Who was the first female Chancellor of Germany?",
+    "ans": {
+      "wrong1": "Angela Merkel",
+      "wrong2": "Ursula von der Leyen",
+      "wrong3": "Katarina Barley",
+      "correct": "Angela Merkel"
+    }
+  },
+  {
+    "quest": "What form of government is used in Israel?",
+    "ans": {
+      "wrong1": "Presidential republic",
+      "wrong2": "Federal Republic",
+      "wrong3": "Islamic Republic",
+      "correct": "Parliamentary democracy"
+    }
+  },
+  {
+    "quest": "Which document ended World War I formally?",
+      "ans": {
+      "wrong1": "League of Nations Charter",
+      "wrong2": "Treaty of Brussels",
+      "wrong3": "Yalta Agreement",
+      "correct": "Treaty of Versailles"
+    }
+  },
+  {
+    "quest": "What is the Swedish legislature called?",
+    "ans": {
+      "wrong1": "Bundestag",
+      "wrong2": "Storting",
+      "wrong3": "Folketing",
+      "correct": "Riksdag"
+    }
+  },
+  {
+    "quest": "Who was the first democratically elected President of Russia?",
+      "ans": {
+      "wrong1": "Vladimir Putin",
+      "wrong2": "Mikhail Gorbachev",
+      "wrong3": "Dmitry Medvedev",
+      "correct": "Boris Yeltsin"
+    }
+  },
+  {
+    "quest": "Which political theory argues that the government should be guided by a 'general will' of citizens?",
+      "ans": {
+      "wrong1": "Anarchism",
+      "wrong2": "Totalitarianism",
+      "wrong3": "Capitalism",
+      "correct": "Republicanism"
+    }
+  },
+  {
+    "quest": "What is the highest court in the UK?",
+    "ans": {
+      "wrong1": "House of Lords",
+      "wrong2": "Privy Council",
+      "wrong3": "High Court",
+      "correct": "Supreme Court"
+    }
+  },
+  {
+    "quest": "Which political philosopher wrote 'The Prince'?",
+    "ans": {
+      "wrong1": "John Locke",
+      "wrong2": "Jean-Jacques Rousseau",
+      "wrong3": "Thomas Hobbes",
+      "correct": "Niccolò Machiavelli"
+    }
+  },
+  {
+    "quest": "Which political stance supports gradual reform via existing institutions?",
+      "ans": {
+      "wrong1": "Revolutionary socialism",
+      "wrong2": "Communism",
+      "wrong3": "Anarchism",
+      "correct": "Democratic socialism"
+    }
+  },
+  {
+    "quest": "What major world event led to the creation of the United Nations?",
+    "ans": {
+      "wrong1": "World War I",
+      "wrong2": "Cold War",
+      "wrong3": "League of Nations End",
+      "correct": "World War II"
+    }
+  },
+  {
+    "quest": "Which country held the first modern Olympic Games?",
+    "ans": {
+      "wrong1": "Italy",
+      "wrong2": "France",
+      "wrong3": "Germany",
+      "correct": "Greece"
+    }
+  },
+  {
+    "quest": "Who is the current Chancellor of Germany?",
+    "ans": {
+      "wrong1": "Olaf Scholz",
+      "wrong2": "Gerhard Schröder",
+      "wrong3": "Angela Merkel",
+      "correct": "Olaf Scholz"
+    }
+  },
+  {
+    "quest": "What year was the Declaration of Independence signed?",
+    "ans": {
+      "wrong1": "1775",
+      "wrong2": "1789",
+      "wrong3": "1801",
+      "correct": "1776"
+    }
+  },
+  {
+    "quest": "Which US president resigned due to the Watergate scandal?",
+    "ans": {
+      "wrong1": "Richard Nixon",
+      "wrong2": "Gerald Ford",
+      "wrong3": "Jimmy Carter",
+      "correct": "Richard Nixon"
+    }
+  },
+  {
+    "quest": "What system describes rule by a few privileged individuals?",
+    "ans": {
+      "wrong1": "Democracy",
+      "wrong2": "Monarchy",
+      "wrong3": "Theocracy",
+      "correct": "Oligarchy"
+    }
+  },
+  {
+    "quest": "What international organization promotes trade and economic cooperation?",
+    "ans": {
+      "wrong1": "UNESCO",
+      "wrong2": "WHO",
+      "wrong3": "IMF",
+      "correct": "WTO"
+    }
+  },
+  {
+    "quest": "Who is credited with writing the Communist Manifesto?",
+    "ans": {
+      "wrong1": "Vladimir Lenin",
+      "wrong2": "Joseph Stalin",
+      "wrong3": "Leon Trotsky",
+      "correct": "Karl Marx"
+    }
+  }
+]
+
+export const EasyPolitics = [
+  {
+    "quest": "Who is the head of a country in a presidential system?",
+    "ans": {
+      "wrong1": "Governor",
+      "wrong2": "Prime Minister",
+      "wrong3": "Senator",
+      "correct": "President"
+    }
+  },
+  {
+    "quest": "What is the name of the U.S. national anthem?",
+    "ans": {
+      "wrong1": "America the Beautiful",
+      "wrong2": "God Bless America",
+      "wrong3": "My Country, 'Tis of Thee",
+      "correct": "The Star-Spangled Banner"
+    }
+  },
+  {
+    "quest": "Which political party is symbolized by an elephant in the U.S.?",
+    "ans": {
+      "wrong1": "Democratic Party",
+      "wrong2": "Green Party",
+      "wrong3": "Libertarian Party",
+      "correct": "Republican Party"
+    }
+  },
+  {
+    "quest": "What is the capital of the United States?",
+    "ans": {
+      "wrong1": "New York City",
+      "wrong2": "Los Angeles",
+      "wrong3": "Chicago",
+      "correct": "Washington, D.C."
+    }
+  },
+  {
+    "quest": "Who signs bills into law in the United States?",
+    "ans": {
+      "wrong1": "Vice President",
+      "wrong2": "Speaker of the House",
+      "wrong3": "Senate Leader",
+      "correct": "President"
+    }
+  },
+  {
+    "quest": "How many branches are there in the U.S. government?",
+    "ans": {
+      "wrong1": "Two",
+      "wrong2": "Four",
+      "wrong3": "One",
+      "correct": "Three"
+    }
+  },
+  {
+    "quest": "What is the name of the UK’s parliament building?",
+    "ans": {
+      "wrong1": "10 Downing Street",
+      "wrong2": "Westminster Abbey",
+      "wrong3": "Windsor Palace",
+      "correct": "Houses of Parliament"
+    }
+  },
+  {
+    "quest": "Who was the first President of the United States?",
+    "ans": {
+      "wrong1": "Thomas Jefferson",
+      "wrong2": "John Adams",
+      "wrong3": "Abraham Lincoln",
+      "correct": "George Washington"
+    }
+  },
+  {
+    "quest": "What is the main role of a senator?",
+    "ans": {
+      "wrong1": "Judge cases",
+      "wrong2": "Enforce laws",
+      "wrong3": "Elect the president",
+      "correct": "Make laws"
+    }
+  },
+  {
+    "quest": "In which country is the White House located?",
+    "ans": {
+      "wrong1": "Canada",
+      "wrong2": "France",
+      "wrong3": "Germany",
+      "correct": "United States"
+    }
+  },
+  {
+    "quest": "What is voting?",
+    "ans": {
+      "wrong1": "Paying taxes",
+      "wrong2": "Serving on a jury",
+      "wrong3": "Getting a passport",
+      "correct": "Choosing leaders"
+    }
+  },
+  {
+    "quest": "What does a mayor typically govern?",
+    "ans": {
+      "wrong1": "A country",
+      "wrong2": "A state",
+      "wrong3": "A province",
+      "correct": "A city"
+    }
+  },
+  {
+    "quest": "What color is usually associated with the Democratic Party in the U.S.?",
+    "ans": {
+      "wrong1": "Green",
+      "wrong2": "Yellow",
+      "wrong3": "Red",
+      "correct": "Blue"
+    }
+  },
+  {
+    "quest": "Which country is famous for the 'House of Commons'?",
+    "ans": {
+      "wrong1": "Canada",
+      "wrong2": "Australia",
+      "wrong3": "France",
+      "correct": "United Kingdom"
+    }
+  },
+  {
+    "quest": "Who can vote in a democratic election?",
+    "ans": {
+      "wrong1": "Only judges",
+      "wrong2": "Only politicians",
+      "wrong3": "Only police officers",
+      "correct": "All eligible citizens"
+    }
+  },
+  {
+    "quest": "What do political parties do?",
+    "ans": {
+      "wrong1": "Print money",
+      "wrong2": "Build houses",
+      "wrong3": "Make art",
+      "correct": "Represent beliefs and elect leaders"
+    }
+  },
+  {
+    "quest": "What is a law?",
+    "ans": {
+      "wrong1": "A tradition",
+      "wrong2": "A rumor",
+      "wrong3": "A suggestion",
+      "correct": "A rule made by the government"
+    }
+  },
+  {
+    "quest": "What is the main job of the president?",
+    "ans": {
+      "wrong1": "Write books",
+      "wrong2": "Serve in court",
+      "wrong3": "Teach in schools",
+      "correct": "Lead the country"
+    }
+  },
+  {
+    "quest": "Which country is known as the world's largest democracy?",
+    "ans": {
+      "wrong1": "USA",
+      "wrong2": "UK",
+      "wrong3": "Canada",
+      "correct": "India"
+    }
+  },
+  {
+    "quest": "Which group advises the U.S. president?",
+    "ans": {
+      "wrong1": "Supreme Court",
+      "wrong2": "Congress",
+      "wrong3": "Military",
+      "correct": "The Cabinet"
+    }
+  }
+]
+
+export const ModerateTechnology = [
+  {
+    "quest": "What does 'HTTP' stand for?",
+    "ans": {
+      "wrong1": "HyperText Transfer Protocol",
+      "wrong2": "HighText Transmission Program",
+      "wrong3": "Hyperlink Text Transfer Process",
+      "correct": "HyperText Transfer Protocol"
+    }
+  },
+  {
+    "quest": "Which company developed the Java programming language?",
+    "ans": {
+      "wrong1": "Microsoft",
+      "wrong2": "Google",
+      "wrong3": "IBM",
+      "correct": "Sun Microsystems"
+    }
+  },
+  {
+    "quest": "What does 'RAM' stand for in computers?",
+    "ans": {
+      "wrong1": "Readily Accessible Memory",
+      "wrong2": "Randomly Assigned Memory",
+      "wrong3": "Read And Manage",
+      "correct": "Random Access Memory"
+    }
+  },
+  {
+    "quest": "Which device converts digital signals into analog for telecommunications?",
+    "ans": {
+      "wrong1": "Router",
+      "wrong2": "Switch",
+      "wrong3": "Bridge",
+      "correct": "Modem"
+    }
+  },
+  {
+    "quest": "What programming language is primarily used for iOS app development?",
+    "ans": {
+      "wrong1": "Java",
+      "wrong2": "Kotlin",
+      "wrong3": "C#",
+      "correct": "Swift"
+    }
+  },
+  {
+    "quest": "What is the name of Apple's desktop operating system?",
+    "ans": {
+      "wrong1": "iOS",
+      "wrong2": "OS X",
+      "wrong3": "Windows",
+      "correct": "macOS"
+    }
+  },
+  {
+    "quest": "Which company created the 'Do No Evil' slogan?",
+    "ans": {
+      "wrong1": "Microsoft",
+      "wrong2": "Facebook",
+      "wrong3": "IBM",
+      "correct": "Google"
+    }
+  },
+  {
+    "quest": "What does 'AI' stand for in technology?",
+    "ans": {
+      "wrong1": "Automated Interface",
+      "wrong2": "Applied Informatics",
+      "wrong3": "Advanced Internet",
+      "correct": "Artificial Intelligence"
+    }
+  },
+  {
+    "quest": "In computing, what is the 'cloud' commonly referring to?",
+    "ans": {
+      "wrong1": "Weather tracking system",
+      "wrong2": "Remote desktop",
+      "wrong3": "Local servers",
+      "correct": "Remote servers accessed via internet"
+    }
+  },
+  {
+    "quest": "What type of memory is 'SSD'?",
+    "ans": {
+      "wrong1": "Sequential Storage Disk",
+      "wrong2": "Solid Sector Disk",
+      "wrong3": "Super Speed Drive",
+      "correct": "Solid State Drive"
+    }
+  },
+  {
+    "quest": "Which protocol is used to securely browse over HTTP?",
+    "ans": {
+      "wrong1": "FTP",
+      "wrong2": "SMTP",
+      "wrong3": "HTTP/2",
+      "correct": "HTTPS"
+    }
+  },
+  {
+    "quest": "What is the name of the first electronic general-purpose computer?",
+    "ans": {
+      "wrong1": "UNIVAC",
+      "wrong2": "ENIAC II",
+      "wrong3": "IBM 701",
+      "correct": "ENIAC"
+    }
+  },
+  {
+    "quest": "Which company created the Android operating system?",
+    "ans": {
+      "wrong1": "Microsoft",
+      "wrong2": "Apple",
+      "wrong3": "Samsung",
+      "correct": "Google"
+    }
+  },
+  {
+    "quest": "What does 'API' stand for?",
+    "ans": {
+      "wrong1": "Application Plugin Interface",
+      "wrong2": "Advanced Programming Interface",
+      "wrong3": "Application Performance Index",
+      "correct": "Application Programming Interface"
+    }
+  },
+  {
+    "quest": "What markup language is used to create web pages?",
+    "ans": {
+      "wrong1": "XHTML",
+      "wrong2": "Markdown",
+      "wrong3": "JavaScript",
+      "correct": "HTML"
+    }
+  },
+  {
+    "quest": "Which language is known as the language of the web?",
+    "ans": {
+      "wrong1": "Python",
+      "wrong2": "Ruby",
+      "wrong3": "Java",
+      "correct": "JavaScript"
+    }
+  },
+  {
+    "quest": "What does 'URL' stand for?",
+    "ans": {
+      "wrong1": "Uniform Resource Location",
+      "wrong2": "Universal Reference Locator",
+      "wrong3": "Uniform Reference Link",
+      "correct": "Uniform Resource Locator"
+    }
+  },
+  {
+    "quest": "Which search engine is owned by Microsoft?",
+    "ans": {
+      "wrong1": "Google",
+      "wrong2": "Yahoo",
+      "wrong3": "DuckDuckGo",
+      "correct": "Bing"
+    }
+  },
+  {
+    "quest": "What is the main function of a router?",
+    "ans": {
+      "wrong1": "Store files",
+      "wrong2": "Convert signals",
+      "wrong3": "Encrypt data",
+      "correct": "Forward data packets between networks"
+    }
+  },
+  {
+    "quest": "Which social media platform is known for tweets?",
+    "ans": {
+      "wrong1": "Instagram",
+      "wrong2": "Facebook",
+      "wrong3": "LinkedIn",
+      "correct": "Twitter"
+    }
+  },
+  {
+    "quest": "What is a 'firewall' used for?",
+    "ans": {
+      "wrong1": "Improve performance",
+      "wrong2": "Backup data",
+      "wrong3": "Parse code",
+      "correct": "Block unauthorized network access"
+    }
+  },
+  {
+    "quest": "Which company created the Windows operating system?",
+    "ans": {
+      "wrong1": "Apple",
+      "wrong2": "Linux Foundation",
+      "wrong3": "IBM",
+      "correct": "Microsoft"
+    }
+  },
+  {
+    "quest": "What programming language is used for Android apps apart from Kotlin?",
+    "ans": {
+      "wrong1": "Swift",
+      "wrong2": "Ruby",
+      "wrong3": "PHP",
+      "correct": "Java"
+    }
+  },
+  {
+    "quest": "What is the name of Apple's mobile operating system?",
+    "ans": {
+      "wrong1": "Android",
+      "wrong2": "macOS",
+      "wrong3": "Windows Phone",
+      "correct": "iOS"
+    }
+  },
+  {
+    "quest": "What ACM stands for in computer science?",
+    "ans": {
+      "wrong1": "Advanced Computer Management",
+      "wrong2": "Association for Computing Machinery",
+      "wrong3": "Applied Computer Mechanics",
+      "correct": "Association for Computing Machinery"
+    }
+  },
+  {
+    "quest": "Which device lets you connect multiple computers in a LAN?",
+    "ans": {
+      "wrong1": "Modem",
+      "wrong2": "Router",
+      "wrong3": "Firewall",
+      "correct": "Switch"
+    }
+  },
+  {
+    "quest": "What protocol is used for sending email?",
+    "ans": {
+      "wrong1": "FTP",
+      "wrong2": "POP3",
+      "wrong3": "HTTP",
+      "correct": "SMTP"
+    }
+  },
+  {
+    "quest": "Which cloud provider uses the name 'Lambda' for a serverless platform?",
+    "ans": {
+      "wrong1": "Google Cloud",
+      "wrong2": "Azure",
+      "wrong3": "IBM Cloud",
+      "correct": "AWS"
+    }
+  },
+  {
+    "quest": "What database model stores data in key-value pairs?",
+    "ans": {
+      "wrong1": "Relational",
+      "wrong2": "Graph",
+      "wrong3": "Document",
+      "correct": "Key‑Value"
+    }
+  },
+  {
+    "quest": "What is the programming language used in data science and machine learning due to its simplicity?",
+    "ans": {
+      "wrong1": "Java",
+      "wrong2": "C++",
+      "wrong3": "PHP",
+      "correct": "Python"
+    }
+  },
+  {
+    "quest": "What open‑source operating system is named after a penguin?",
+    "ans": {
+      "wrong1": "Unix",
+      "wrong2": "BSD",
+      "wrong3": "Solaris",
+      "correct": "Linux"
+    }
+  },
+  {
+    "quest": "Which markup language is used to style web pages?",
+    "ans": {
+      "wrong1": "HTML",
+      "wrong2": "JavaScript",
+      "wrong3": "PHP",
+      "correct": "CSS"
+    }
+  },
+  {
+    "quest": "What is the division of cloud services into IaaS, PaaS, SaaS called?",
+    "ans": {
+      "wrong1": "Cloud tiers",
+      "wrong2": "Cloud stack",
+      "wrong3": "Cloud types",
+      "correct": "Service models"
+    }
+  },
+  {
+    "quest": "Which data structure uses LIFO (Last In First Out)?",
+    "ans": {
+      "wrong1": "Queue",
+      "wrong2": "Heap",
+      "wrong3": "Tree",
+      "correct": "Stack"
+    }
+  },
+  {
+    "quest": "Which technology is used to create interactive web pages in real-time?",
+    "ans": {
+      "wrong1": "CSS",
+      "wrong2": "HTML",
+      "wrong3": "SQL",
+      "correct": "JavaScript"
+    }
+  },
+  {
+    "quest": "What is the full form of DNS?",
+    "ans": {
+      "wrong1": "Domain Number System",
+      "wrong2": "Dynamic Name Service",
+      "wrong3": "Digital Naming System",
+      "correct": "Domain Name System"
+    }
+  },
+  {
+    "quest": "Which popular open‑source content management system uses PHP and MySQL?",
+    "ans": {
+      "wrong1": "Drupal",
+      "wrong2": "Joomla",
+      "wrong3": "Magento",
+      "correct": "WordPress"
+    }
+  },
+  {
+    "quest": "What is the name for voice‑activated AI assistants like Siri and Alexa?",
+    "ans": {
+      "wrong1": "Chatbots",
+      "wrong2": "Robots",
+      "wrong3": "Smart Speakers",
+      "correct": "Virtual Assistants"
+    }
+  },
+  {
+    "quest": "Which search engine does not track user activity?",
+    "ans": {
+      "wrong1": "Google",
+      "wrong2": "Bing",
+      "wrong3": "Yahoo",
+      "correct": "DuckDuckGo"
+    }
+  },
+  {
+    "quest": "What programming paradigm focuses on objects and classes?",
+    "ans": {
+      "wrong1": "Functional programming",
+      "wrong2": "Procedural programming",
+      "wrong3": "Declarative programming",
+      "correct": "Object-Oriented programming"
+    }
+  },
+  {
+    "quest": "Which technology enables peer-to-peer cryptocurrency transactions?",
+    "ans": {
+      "wrong1": "Blockchain",
+      "wrong2": "Cloud computing",
+      "wrong3": "Quantum computing",
+      "correct": "Blockchain"
+    }
+  },
+  {
+    "quest": "What is the name for a network of linked devices that communicate over the internet?",
+    "ans": {
+      "wrong1": "Extranet",
+      "wrong2": "Intranet",
+      "wrong3": "Web",
+      "correct": "Internet of Things"
+    }
+  },
+  {
+    "quest": "Which technology is used for creating 3D-printed objects layer by layer?",
+      "ans": {
+      "wrong1": "Laser cutting",
+      "wrong2": "Injection molding",
+      "wrong3": "CNC machining",
+      "correct": "3D printing"
+    }
+  },
+  {
+    "quest": "Which language is preferred for statistical computing and graphics?",
+    "ans": {
+      "wrong1": "C#",
+      "wrong2": "Java",
+      "wrong3": "Ruby",
+      "correct": "R"
+    }
+  }
+]
+
+export const EasyTechnology = [
+  {
+    "quest": "What does 'Wi-Fi' allow devices to do?",
+    "ans": {
+      "wrong1": "Charge wirelessly",
+      "wrong2": "Connect using cables",
+      "wrong3": "Download faster",
+      "correct": "Connect to the internet wirelessly"
+    }
+  },
+  {
+    "quest": "What is the most commonly used operating system for PCs?",
+    "ans": {
+      "wrong1": "macOS",
+      "wrong2": "Linux",
+      "wrong3": "DOS",
+      "correct": "Windows"
+    }
+  },
+  {
+    "quest": "Which device is used to input text into a computer?",
+    "ans": {
+      "wrong1": "Monitor",
+      "wrong2": "Printer",
+      "wrong3": "Speaker",
+      "correct": "Keyboard"
+    }
+  },
+  {
+    "quest": "Which company makes the iPhone?",
+    "ans": {
+      "wrong1": "Samsung",
+      "wrong2": "Google",
+      "wrong3": "Microsoft",
+      "correct": "Apple"
+    }
+  },
+  {
+    "quest": "What is the full form of USB?",
+    "ans": {
+      "wrong1": "Unlimited Serial Bus",
+      "wrong2": "Universal Software Board",
+      "wrong3": "Unified Signal Band",
+      "correct": "Universal Serial Bus"
+    }
+  },
+  {
+    "quest": "Which part of a computer shows visuals and graphics?",
+    "ans": {
+      "wrong1": "Keyboard",
+      "wrong2": "CPU",
+      "wrong3": "Mouse",
+      "correct": "Monitor"
+    }
+  },
+  {
+    "quest": "What is used to click and drag items on a computer screen?",
+    "ans": {
+      "wrong1": "Printer",
+      "wrong2": "Speakers",
+      "wrong3": "Webcam",
+      "correct": "Mouse"
+    }
+  },
+  {
+    "quest": "What is a smartphone?",
+    "ans": {
+      "wrong1": "A digital camera",
+      "wrong2": "A type of computer mouse",
+      "wrong3": "A printer device",
+      "correct": "A phone with computer-like features"
+    }
+  },
+  {
+    "quest": "What does a printer do?",
+    "ans": {
+      "wrong1": "Stores data",
+      "wrong2": "Saves websites",
+      "wrong3": "Displays movies",
+      "correct": "Prints text or images on paper"
+    }
+  },
+  {
+    "quest": "Which of these is a search engine?",
+    "ans": {
+      "wrong1": "Word",
+      "wrong2": "Excel",
+      "wrong3": "Photoshop",
+      "correct": "Google"
+    }
+  },
+  {
+    "quest": "What does 'app' stand for?",
+    "ans": {
+      "wrong1": "Apple program",
+      "wrong2": "Advanced PC Program",
+      "wrong3": "Auto-processing Platform",
+      "correct": "Application"
+    }
+  },
+  {
+    "quest": "What do we call a portable computer?",
+    "ans": {
+      "wrong1": "Monitor",
+      "wrong2": "Desktop",
+      "wrong3": "Tablet",
+      "correct": "Laptop"
+    }
+  },
+  {
+    "quest": "Which social media app uses a bird as its logo?",
+    "ans": {
+      "wrong1": "Instagram",
+      "wrong2": "Facebook",
+      "wrong3": "LinkedIn",
+      "correct": "Twitter"
+    }
+  },
+  {
+    "quest": "Which component stores data in a computer?",
+    "ans": {
+      "wrong1": "Monitor",
+      "wrong2": "Mouse",
+      "wrong3": "Keyboard",
+      "correct": "Hard Drive"
+    }
+  },
+  {
+    "quest": "What is the main function of a web browser?",
+    "ans": {
+      "wrong1": "Edit photos",
+      "wrong2": "Play music",
+      "wrong3": "Write documents",
+      "correct": "Access websites"
+    }
+  },
+  {
+    "quest": "What is the name for malicious software?",
+    "ans": {
+      "wrong1": "Appware",
+      "wrong2": "Cloudware",
+      "wrong3": "Adware",
+      "correct": "Malware"
+    }
+  },
+  {
+    "quest": "What is the icon of a gear usually used for in apps?",
+    "ans": {
+      "wrong1": "Search",
+      "wrong2": "Log out",
+      "wrong3": "Home",
+      "correct": "Settings"
+    }
+  },
+  {
+    "quest": "Which company makes the Android operating system?",
+    "ans": {
+      "wrong1": "Apple",
+      "wrong2": "Microsoft",
+      "wrong3": "Amazon",
+      "correct": "Google"
+    }
+  },
+  {
+    "quest": "Which of these is NOT a web browser?",
+    "ans": {
+      "wrong1": "Chrome",
+      "wrong2": "Firefox",
+      "wrong3": "Safari",
+      "correct": "Excel"
+    }
+  },
+  {
+    "quest": "What does a camera on a smartphone do?",
+    "ans": {
+      "wrong1": "Print documents",
+      "wrong2": "Send messages",
+      "wrong3": "Play games",
+      "correct": "Takes photos and videos"
+    }
+  }
+]
+export const ModerateMusic = [
+  {
+    "quest": "Who composed the Four Seasons?",
+    "ans": {
+      "wrong1": "Johann Sebastian Bach",
+      "wrong2": "George Frideric Handel",
+      "wrong3": "Ludwig van Beethoven",
+      "correct": "Antonio Vivaldi"
+    }
+  },
+  {
+    "quest": "Which band recorded the album 'Abbey Road'?",
+    "ans": {
+      "wrong1": "The Rolling Stones",
+      "wrong2": "The Who",
+      "wrong3": "Queen",
+      "correct": "The Beatles"
+    }
+  },
+  {
+    "quest": "Which classical composer was deaf?",
+    "ans": {
+      "wrong1": "Mozart",
+      "wrong2": "Schubert",
+      "wrong3": "Chopin",
+      "correct": "Ludwig van Beethoven"
+    }
+  },
+  {
+    "quest": "Who is known as the King of Pop?",
+    "ans": {
+      "wrong1": "Elvis Presley",
+      "wrong2": "Prince",
+      "wrong3": "Freddie Mercury",
+      "correct": "Michael Jackson"
+    }
+  },
+  {
+    "quest": "Which composer wrote 'Eine kleine Nachtmusik'?",
+    "ans": {
+      "wrong1": "Haydn",
+      "wrong2": "Beethoven",
+      "wrong3": "Liszt",
+      "correct": "Wolfgang Amadeus Mozart"
+    }
+  },
+  {
+    "quest": "Which country is ABBA from?",
+    "ans": {
+      "wrong1": "Germany",
+      "wrong2": "Norway",
+      "wrong3": "Denmark",
+      "correct": "Sweden"
+    }
+  },
+  {
+    "quest": "What instrument has keys, pedals, and strings?",
+    "ans": {
+      "wrong1": "Guitar",
+      "wrong2": "Violin",
+      "wrong3": "Flute",
+      "correct": "Piano"
+    }
+  },
+  {
+    "quest": "Who sang 'Rolling in the Deep'?",
+    "ans": {
+      "wrong1": "Beyoncé",
+      "wrong2": "Taylor Swift",
+      "wrong3": "Lady Gaga",
+      "correct": "Adele"
+    }
+  },
+  {
+    "quest": "What genre uses improvisation and swing rhythm?",
+    "ans": {
+      "wrong1": "Classical",
+      "wrong2": "Rock",
+      "wrong3": "Pop",
+      "correct": "Jazz"
+    }
+  },
+  {
+    "quest": "Which Beatles song begins with 'Yesterday'?",
+    "ans": {
+      "wrong1": "Let It Be",
+      "wrong2": "Come Together",
+      "wrong3": "Help!",
+      "correct": "Yesterday"
+    }
+  },
+  {
+    "quest": "What is the national music style of Brazil featuring samba beats?",
+    "ans": {
+      "wrong1": "Bossa Nova",
+      "wrong2": "Tango",
+      "wrong3": "Reggaeton",
+      "correct": "Samba"
+    }
+  },
+  {
+    "quest": "Which performer is known for wearing a mask and performing rock?",
+    "ans": {
+      "wrong1": "KISS",
+      "wrong2": "Slipknot",
+      "wrong3": "Gwar",
+      "correct": "KISS"
+    }
+  },
+  {
+    "quest": "Who composed Swan Lake?",
+    "ans": {
+      "wrong1": "Tchaikovsky",
+      "wrong2": "Rachmaninoff",
+      "wrong3": "Stravinsky",
+      "correct": "Pyotr Ilyich Tchaikovsky"
+    }
+  },
+  {
+    "quest": "In music notation, what clef is commonly used for higher pitches?",
+    "ans": {
+      "wrong1": "Bass clef",
+      "wrong2": "Alto clef",
+      "wrong3": "Tenor clef",
+      "correct": "Treble clef"
+    }
+  },
+  {
+    "quest": "Which rapper released the album 'The Eminem Show'?",
+    "ans": {
+      "wrong1": "Jay-Z",
+      "wrong2": "Dr. Dre",
+      "wrong3": "Kanye West",
+      "correct": "Eminem"
+    }
+  },
+  {
+    "quest": "What decade is known for the rise of disco music?",
+    "ans": {
+      "wrong1": "1960s",
+      "wrong2": "1990s",
+      "wrong3": "2000s",
+      "correct": "1970s"
+    }
+  },
+  {
+    "quest": "Which female singer had a hit with 'Like a Prayer'?",
+    "ans": {
+      "wrong1": "Whitney Houston",
+      "wrong2": "Janet Jackson",
+      "wrong3": "Madonna",
+      "correct": "Madonna"
+    }
+  },
+  {
+    "quest": "What is the standard tuning note for orchestras (A above middle C)?",
+    "ans": {
+      "wrong1": "A 410Hz",
+      "wrong2": "A 4400Hz",
+      "wrong3": "A 400Hz",
+      "correct": "A 440Hz"
+    }
+  },
+  {
+    "quest": "Which rock band wrote 'Stairway to Heaven'?",
+    "ans": {
+      "wrong1": "Pink Floyd",
+      "wrong2": "The Rolling Stones",
+      "wrong3": "Queen",
+      "correct": "Led Zeppelin"
+    }
+  },
+  {
+    "quest": "Which electronic dance music duo is from France with hits like 'One More Time'?",
+    "ans": {
+      "wrong1": "Otto Knows",
+      "wrong2": "Swedish House Mafia",
+      "wrong3": "The Chainsmokers",
+      "correct": "Daft Punk"
+    }
+  },
+  {
+    "quest": "Which composer wrote The Nutcracker suite?",
+    "ans": {
+      "wrong1": "Mendelssohn",
+      "wrong2": "Schumann",
+      "wrong3": "Brahms",
+      "correct": "Pyotr Ilyich Tchaikovsky"
+    }
+  },
+  {
+    "quest": "What musical term indicates gradually getting louder?",
+    "ans": {
+      "wrong1": "Diminuendo",
+      "wrong2": "Forte",
+      "wrong3": "Piano",
+      "correct": "Crescendo"
+    }
+  },
+  {
+    "quest": "Who sang 'Thriller'?",
+    "ans": {
+      "wrong1": "Prince",
+      "wrong2": "Madonna",
+      "wrong3": "Bruce Jackson",
+      "correct": "Michael Jackson"
+    }
+  },
+  {
+    "quest": "Which legendary guitarist is associated with Jimi Hendrix Experience?",
+    "ans": {
+      "wrong1": "Eric Clapton",
+      "wrong2": "Jimmy Page",
+      "wrong3": "Carlos Santana",
+      "correct": "Jimi Hendrix"
+    }
+  },
+  {
+    "quest": "Which music streaming platform launched in 2008 and offers playlists and radio?",
+    "ans": {
+      "wrong1": "Apple Music",
+      "wrong2": "SoundCloud",
+      "wrong3": "Tidal",
+      "correct": "Spotify"
+    }
+  },
+  {
+    "quest": "Which instrument is often used in jazz and brass sections, with valves?",
+    "ans": {
+      "wrong1": "Trombone",
+      "wrong2": "Tuba",
+      "wrong3": "French horn",
+      "correct": "Trumpet"
+    }
+  },
+  {
+    "quest": "Which classical period immediately preceded the Romantic era?",
+    "ans": {
+      "wrong1": "Baroque",
+      "wrong2": "Modern",
+      "wrong3": "Renaissance",
+      "correct": "Classical"
+    }
+  },
+  {
+    "quest": "Who released the album '1989'?",
+    "ans": {
+      "wrong1": "Katy Perry",
+      "wrong2": "Beyoncé",
+      "wrong3": "Rihanna",
+      "correct": "Taylor Swift"
+    }
+  },
+  {
+    "quest": "Which music producer founded the label Motown?",
+    "ans": {
+      "wrong1": "Smokey Robinson",
+      "wrong2": "Marvin Gaye",
+      "wrong3": "Stevie Wonder",
+      "correct": "Berry Gordy"
+    }
+  },
+  {
+    "quest": "What term describes a sequence of notes played harmoniously?",
+    "ans": {
+      "wrong1": "Rhythm",
+      "wrong2": "Tempo",
+      "wrong3": "Beat",
+      "correct": "Melody"
+    }
+  },
+  {
+    "quest": "Which rapper featured on Rihanna’s 'Umbrella'?",
+    "ans": {
+      "wrong1": "Drake",
+      "wrong2": "Jay-Z",
+      "wrong3": "Kanye West",
+      "correct": "Jay-Z"
+    }
+  },
+  {
+    "quest": "Which iconic jazz trumpeter played 'What a Wonderful World'?",
+    "ans": {
+      "wrong1": "Louis Armstrong",
+      "wrong2": "Miles Davis",
+      "wrong3": "Dizzy Gillespie",
+      "correct": "Louis Armstrong"
+    }
+  },
+  {
+    "quest": "Which band’s lead singer is Bono?",
+    "ans": {
+      "wrong1": "Queen",
+      "wrong2": "Coldplay",
+      "wrong3": "U2",
+      "correct": "U2"
+    }
+  },
+  {
+    "quest": "Who composed the music for the film 'Star Wars'?",
+    "ans": {
+      "wrong1": "Hans Zimmer",
+      "wrong2": "John Williams",
+      "wrong3": "Alan Silvestri",
+      "correct": "John Williams"
+    }
+  },
+  {
+    "quest": "What handheld music player did Apple popularize in the early 2000s?",
+    "ans": {
+      "wrong1": "iPod Shuffle",
+      "wrong2": "iPad",
+      "wrong3": "iPhone",
+      "correct": "iPod"
+    }
+  },
+  {
+    "quest": "Which band released 'Hotel California'?",
+    "ans": {
+      "wrong1": "The Beatles",
+      "wrong2": "Pink Floyd",
+      "wrong3": "Fleetwood Mac",
+      "correct": "The Eagles"
+    }
+  },
+  {
+    "quest": "Which instrument uses strings and is played with a bow?",
+      "ans": {
+        "wrong1": "Guitar",
+        "wrong2": "Cello",
+        "wrong3": "Harp",
+        "correct": "Violin"
+      }
+  },
+  {
+    "quest": "Which artist released the album 'Lemonade' in 2016?",
+    "ans": {
+      "wrong1": "Alicia Keys",
+      "wrong2": "Katy Perry",
+      "wrong3": "Beyoncé",
+      "correct": "Beyoncé"
+    }
+  },
+  {
+    "quest": "Which musical instrument has 88 keys?",
+    "ans": {
+      "wrong1": "Keyboard",
+      "wrong2": "Organ",
+      "wrong3": "Synthesizer",
+      "correct": "Piano"
+    }
+  },
+  {
+    "quest": "Which legendary rapper was featured on 'California Love'?",
+      "ans": {
+      "wrong1": "Snoop Dogg",
+      "wrong2": "Jay-Z",
+      "wrong3": "Dr. Dre",
+      "correct": "Tupac Shakur"
+      }
+  },
+  {
+    "quest": "Which style of music originated in the Delta region of the USA and features guitar and harmonica?",
+    "ans": {
+      "wrong1": "Jazz",
+      "wrong2": "Rock",
+      "wrong3": "Country",
+      "correct": "Blues"
+    }
+  },
+  {
+    "quest": "What piece of equipment is used to mix audio signals in a recording studio?",
+    "ans": {
+      "wrong1": "Amplifier",
+      "wrong2": "Microphone",
+      "wrong3": "Speaker",
+      "correct": "Mixer"
+    }
+  },
+  {
+    "quest": "Which genre focuses on orchestras and symphonic form as its hallmark?",
+    "ans": {
+      "wrong1": "Pop",
+      "wrong2": "Rock",
+      "wrong3": "Hip-Hop",
+      "correct": "Classical"
+    }
+  }
+]
+
+export const EasyMusic = [
+  {
+    "quest": "Who is known as the King of Pop?",
+    "ans": {
+      "wrong1": "Prince",
+      "wrong2": "Elvis Presley",
+      "wrong3": "Stevie Wonder",
+      "correct": "Michael Jackson"
+    }
+  },
+  {
+    "quest": "Which instrument has six strings?",
+    "ans": {
+      "wrong1": "Drum",
+      "wrong2": "Piano",
+      "wrong3": "Violin",
+      "correct": "Guitar"
+    }
+  },
+  {
+    "quest": "What music streaming app has a green logo?",
+    "ans": {
+      "wrong1": "Apple Music",
+      "wrong2": "YouTube",
+      "wrong3": "Amazon Music",
+      "correct": "Spotify"
+    }
+  },
+  {
+    "quest": "Which singer performed 'Shake It Off'?",
+    "ans": {
+      "wrong1": "Katy Perry",
+      "wrong2": "Rihanna",
+      "wrong3": "Ariana Grande",
+      "correct": "Taylor Swift"
+    }
+  },
+  {
+    "quest": "What instrument has black and white keys?",
+    "ans": {
+      "wrong1": "Flute",
+      "wrong2": "Guitar",
+      "wrong3": "Drum",
+      "correct": "Piano"
+    }
+  },
+  {
+    "quest": "Which band sang 'Yellow Submarine'?",
+    "ans": {
+      "wrong1": "Queen",
+      "wrong2": "ABBA",
+      "wrong3": "Pink Floyd",
+      "correct": "The Beatles"
+    }
+  },
+  {
+    "quest": "Who sings the song 'Hello' released in 2015?",
+    "ans": {
+      "wrong1": "Alicia Keys",
+      "wrong2": "Beyoncé",
+      "wrong3": "Taylor Swift",
+      "correct": "Adele"
+    }
+  },
+  {
+    "quest": "Which musical instrument do you blow into to play?",
+    "ans": {
+      "wrong1": "Drum",
+      "wrong2": "Violin",
+      "wrong3": "Guitar",
+      "correct": "Flute"
+    }
+  },
+  {
+    "quest": "Which music icon had hits like 'Purple Rain' and 'Kiss'?",
+    "ans": {
+      "wrong1": "Bruno Mars",
+      "wrong2": "Michael Jackson",
+      "wrong3": "Elton John",
+      "correct": "Prince"
+    }
+  },
+  {
+    "quest": "What is the name of Beyoncé’s husband?",
+    "ans": {
+      "wrong1": "Drake",
+      "wrong2": "Kanye West",
+      "wrong3": "Usher",
+      "correct": "Jay-Z"
+    }
+  },
+  {
+    "quest": "Which of these is a percussion instrument?",
+    "ans": {
+      "wrong1": "Saxophone",
+      "wrong2": "Violin",
+      "wrong3": "Flute",
+      "correct": "Drum"
+    }
+  },
+  {
+    "quest": "Which Taylor Swift album shares its name with a number?",
+    "ans": {
+      "wrong1": "Red",
+      "wrong2": "Reputation",
+      "wrong3": "Midnights",
+      "correct": "1989"
+    }
+  },
+  {
+    "quest": "What music competition show features red spinning chairs?",
+    "ans": {
+      "wrong1": "American Idol",
+      "wrong2": "X Factor",
+      "wrong3": "Got Talent",
+      "correct": "The Voice"
+    }
+  },
+  {
+    "quest": "Which female pop star is known for wearing meat as a dress?",
+    "ans": {
+      "wrong1": "Rihanna",
+      "wrong2": "Katy Perry",
+      "wrong3": "Nicki Minaj",
+      "correct": "Lady Gaga"
+    }
+  },
+  {
+    "quest": "Which band is famous for the song 'Bohemian Rhapsody'?",
+    "ans": {
+      "wrong1": "The Beatles",
+      "wrong2": "The Rolling Stones",
+      "wrong3": "Pink Floyd",
+      "correct": "Queen"
+    }
+  },
+  {
+    "quest": "What is the opposite of loud in music terms?",
+    "ans": {
+      "wrong1": "Fast",
+      "wrong2": "High",
+      "wrong3": "Sharp",
+      "correct": "Soft"
+    }
+  },
+  {
+    "quest": "Which singer is famous for the album '25'?",
+    "ans": {
+      "wrong1": "Katy Perry",
+      "wrong2": "Selena Gomez",
+      "wrong3": "Lady Gaga",
+      "correct": "Adele"
+    }
+  },
+  {
+    "quest": "Which instrument is mostly used in rock music?",
+    "ans": {
+      "wrong1": "Violin",
+      "wrong2": "Harp",
+      "wrong3": "Flute",
+      "correct": "Electric Guitar"
+    }
+  },
+  {
+    "quest": "Who was the lead singer of Queen?",
+    "ans": {
+      "wrong1": "Mick Jagger",
+      "wrong2": "John Lennon",
+      "wrong3": "Kurt Cobain",
+      "correct": "Freddie Mercury"
+    }
+  },
+  {
+    "quest": "Which pop star has a fan base called 'Beliebers'?",
+    "ans": {
+      "wrong1": "Shawn Mendes",
+      "wrong2": "Zayn Malik",
+      "wrong3": "Bruno Mars",
+      "correct": "Justin Bieber"
+    }
+  }
+]
+ [
+  {
+    "quest": "What is Captain America’s shield made of?",
+    "ans": {
+      "wrong1": "Adamantium",
+      "wrong2": "Vibranium alloy",
+      "wrong3": "Stainless steel",
+      "correct": "Vibranium"
+    }
+  },
+  {
+    "quest": "What is the name of Thor’s hammer?",
+    "ans": {
+      "wrong1": "Jarnbjorn",
+      "wrong2": "Stormbreaker",
+      "wrong3": "Mistilteinn",
+      "correct": "Mjolnir"
+    }
+  },
+  {
+    "quest": "Who is the ruler of Wakanda?",
+    "ans": {
+      "wrong1": "Shuri",
+      "wrong2": "N'Jobu",
+      "wrong3": "Zuri",
+      "correct": "Black Panther"
+    }
+  },
+  {
+    "quest": "Which Infinity Stone did Thanos get from Xandar?",
+    "ans": {
+      "wrong1": "Mind Stone",
+      "wrong2": "Space Stone",
+      "wrong3": "Reality Stone",
+      "correct": "Power Stone"
+    }
+  },
+  {
+    "quest": "Who created Ultron in the MCU?",
+    "ans": {
+      "wrong1": "Bruce Banner",
+      "wrong2": "Nick Fury",
+      "wrong3": "Stephen Strange",
+      "correct": "Tony Stark"
+    }
+  },
+  {
+    "quest": "Who is Peter Quill also known as?",
+    "ans": {
+      "wrong1": "Nova",
+      "wrong2": "Star-Lord Prime",
+      "wrong3": "Cosmo",
+      "correct": "Star-Lord"
+    }
+  },
+  {
+    "quest": "Which group includes Black Widow, Hawkeye, and Hulk?",
+    "ans": {
+      "wrong1": "X-Men",
+      "wrong2": "Guardians of the Galaxy",
+      "wrong3": "Agents of S.H.I.E.L.D.",
+      "correct": "The Avengers"
+    }
+  },
+  {
+    "quest": "Who is the Ancient One’s student before Doctor Strange?",
+    "ans": {
+      "wrong1": "Mordo",
+      "wrong2": "Wong",
+      "wrong3": "Baron Mordo",
+      "correct": "Mordo"
+    }
+  },
+  {
+    "quest": "What metal is used to make Black Panther’s suit?",
+    "ans": {
+      "wrong1": "Adamantium",
+      "wrong2": "Carbonadium",
+      "wrong3": "Titanium",
+      "correct": "Vibranium"
+    }
+  },
+  {
+    "quest": "Which hero is called 'The Merc with a Mouth'?",
+    "ans": {
+      "wrong1": "Deadpool",
+      "wrong2": "Wolverine",
+      "wrong3": "Blade",
+      "correct": "Deadpool"
+    }
+  },
+  {
+    "quest": "What is Spider-Man’s real name?",
+    "ans": {
+      "wrong1": "Miles Morales",
+      "wrong2": "Eddie Brock",
+      "wrong3": "Harry Osborn",
+      "correct": "Peter Parker"
+    }
+  },
+  {
+    "quest": "Who is the Winter Soldier?",
+    "ans": {
+      "wrong1": "Tony Stark",
+      "wrong2": "Scott Lang",
+      "wrong3": "Sam Wilson",
+      "correct": "Bucky Barnes"
+    }
+  },
+  {
+    "quest": "Which planet is Thanos from?",
+    "ans": {
+      "wrong1": "Sakaar",
+      "wrong2": "Asgard",
+      "wrong3": "Ego",
+      "correct": "Titan"
+    }
+  },
+  {
+    "quest": "Which hero wields an Infinity Gauntlet temporarily during Endgame?",
+    "ans": {
+      "wrong1": "Hulk",
+      "wrong2": "Hawkeye",
+      "wrong3": "Black Panther",
+      "correct": "Iron Man"
+    }
+  },
+  {
+    "quest": "Who is the director of S.H.I.E.L.D. in the early MCU movies?",
+    "ans": {
+      "wrong1": "Phil Coulson",
+      "wrong2": "Maria Hill",
+      "wrong3": "Nick Fury",
+      "correct": "Nick Fury"
+    }
+  },
+  {
+    "quest": "Which Avenger had a sister named Natasha Romanoff?",
+    "ans": {
+      "wrong1": "Hawkeye",
+      "wrong2": "Black Panther",
+      "wrong3": "Scarlet Witch",
+      "correct": "None – she has no sister"
+    }
+  },
+  {
+    "quest": "Who played the Hulk in The Avengers (2012)?",
+    "ans": {
+      "wrong1": "Eric Bana",
+      "wrong2": "Mark Ruffalo",
+      "wrong3": "Todd McFarlane",
+      "correct": "Mark Ruffalo"
+    }
+  },
+  {
+    "quest": "What is the name of Thor’s home realm?",
+    "ans": {
+      "wrong1": "Midgard",
+      "wrong2": "Vanaheim",
+      "wrong3": "Jotunheim",
+      "correct": "Asgard"
+    }
+  },
+  {
+    "quest": "What alias does Natasha Romanoff use while undercover in Budapest?",
+    "ans": {
+      "wrong1": "Natalia",
+      "wrong2": "Yelena",
+      "wrong3": "Olga",
+      "correct": "Natalia"
+    }
+  },
+  {
+    "quest": "Which hero can shrink to the size of an ant?",
+    "ans": {
+      "wrong1": "Black Panther",
+      "wrong2": "Ant-Man's friend",
+      "wrong3": "Spider-Man",
+      "correct": "Ant-Man"
+    }
+  },
+  {
+    "quest": "Which character is the Sorcerer Supreme?",
+    "ans": {
+      "wrong1": "Wanda Maximoff",
+      "wrong2": "Baron Mordo",
+      "wrong3": "The Ancient One",
+      "correct": "Doctor Strange"
+    }
+  },
+  {
+    "quest": "Who leads the Guardians of the Galaxy?",
+    "ans": {
+      "wrong1": "Rocket",
+      "wrong2": "Gamora",
+      "wrong3": "Drax",
+      "correct": "Star-Lord"
+    }
+  },
+  {
+    "quest": "Where did Peter Parker get bitten by the radioactive spider?",
+    "ans": {
+      "wrong1": "Stark Tower",
+      "wrong2": "Oscorp Lab",
+      "wrong3": "Quinjet",
+      "correct": "Oscorp Lab"
+    }
+  },
+  {
+    "quest": "Which Avenger goes by the name Hawkeye?",
+    "ans": {
+      "wrong1": "Clint Barton",
+      "wrong2": "Bruce Banner",
+      "wrong3": "Scott Lang",
+      "correct": "Clint Barton"
+    }
+  },
+  {
+    "quest": "Who is Thanos’ daughter?",
+    "ans": {
+      "wrong1": "Ronan",
+      "wrong2": "Nebula",
+      "wrong3": "Okoye",
+      "correct": "Nebula"
+    }
+  },
+  {
+    "quest": "Which artifact traps souls in the Soul Gem?",
+    "ans": {
+      "wrong1": "Mirror Dimension",
+      "wrong2": "Time Stone",
+      "wrong3": "Mind Stone",
+      "correct": "Soul Stone"
+    }
+  },
+  {
+    "quest": "Which Avenger trained in the Red Room as a spy?",
+    "ans": {
+      "wrong1": "Valkyrie",
+      "wrong2": "Shuri",
+      "wrong3": "Pepper Potts",
+      "correct": "Black Widow"
+    }
+  },
+  {
+    "quest": "Which character became the new Captain America in comics?",
+    "ans": {
+      "wrong1": "Sam Wilson",
+      "wrong2": "Bucky Barnes",
+      "wrong3": "Steve Rogers",
+      "correct": "Sam Wilson"
+    }
+  },
+  {
+    "quest": "What is the name of the spacecraft used by the Guardians?",
+    "ans": {
+      "wrong1": "The Milano II",
+      "wrong2": "The Sammy",
+      "wrong3": "The Orlando",
+      "correct": "The Milano"
+    }
+  },
+  {
+    "quest": "Which world does Ego call his home?",
+    "ans": {
+      "wrong1": "Sakaar",
+      "wrong2": "Titan",
+      "wrong3": "Xandar",
+      "correct": "Ego’s Planet"
+    }
+  },
+  {
+    "quest": "Who made the hammer Stormbreaker?",
+    "ans": {
+      "wrong1": "Heimdall",
+      "wrong2": "Iron Man",
+      "wrong3": "Odin",
+      "correct": "Eitri"
+    }
+  },
+  {
+    "quest": "Which family donates funds to the Illuminati in the comics?",
+    "ans": {
+      "wrong1": "Stark",
+      "wrong2": "Pym",
+      "wrong3": "Xavier",
+      "correct": "Stark"
+    }
+  },
+  {
+    "quest": "What help does T’Challa’s sister Shuri provide?",
+    "ans": {
+      "wrong1": "Combat training",
+      "wrong2": "Diplomacy",
+      "wrong3": "Magic",
+      "correct": "Technology"
+    }
+  },
+  {
+    "quest": "What is the real name of Vision?",
+    "ans": {
+      "wrong1": "Ultron",
+      "wrong2": "Tony Stark",
+      "wrong3": "Bruce Banner",
+      "correct": "Vision is a synthezoid with no human name"
+    }
+  },
+  {
+    "quest": "Which group fights Thanos during the battle of Wakanda?",
+    "ans": {
+      "wrong1": "Hydra",
+      "wrong2": "Ultron army",
+      "wrong3": "Ravagers",
+      "correct": "The Avengers and Wakandan forces"
+    }
+  },
+  {
+    "quest": "Which character wields dual blades and appears in 'Captain America: The Winter Soldier'?",
+    "ans": {
+      "wrong1": "Falcon",
+      "wrong2": "Rhodey",
+      "wrong3": "Nick Fury",
+      "correct": "Black Widow"
+    }
+  },
+  {
+    "quest": "Who is the actress that plays Captain Marvel?",
+    "ans": {
+      "wrong1": "Elizabeth Olsen",
+      "wrong2": "Scarlett Johansson",
+      "wrong3": "Natalie Portman",
+      "correct": "Brie Larson"
+    }
+  },
+  {
+    "quest": "What is the AI that runs Stark’s house?",
+    "ans": {
+      "wrong1": "Friday",
+      "wrong2": "Karen",
+      "wrong3": "J.A.R.V.I.S.",
+      "correct": "J.A.R.V.I.S."
+    }
+  },
+  {
+    "quest": "Who is Thor’s mischievous brother?",
+    "ans": {
+      "wrong1": "Baldur",
+      "wrong2": "Fandral",
+      "wrong3": "Heimdall",
+      "correct": "Loki"
+    }
+  },
+  {
+    "quest": "Which Avenger sacrificed themselves using the Infinity Gauntlet?",
+    "ans": {
+      "wrong1": "Thor",
+      "wrong2": "Captain America",
+      "wrong3": "Black Widow",
+      "correct": "Iron Man"
+    }
+  },
+  {
+    "quest": "Which villain is known for his metallic jaw and Hydra affiliation?",
+    "ans": {
+      "wrong1": "Red Skull",
+      "wrong2": "Ultron",
+      "wrong3": "Baron Zemo",
+      "correct": "Red Skull"
+    }
+  },
+  {
+    "quest": "Who becomes the new ruler of Wakanda in comics after T’Challa?",
+    "ans": {
+      "wrong1": "M’Baku",
+      "wrong2": "Killmonger",
+      "wrong3": "N’Jadaka",
+      "correct": "Shuri"
+    }
+  },
+  {
+    "quest": "What was the first MCU film?",
+    "ans": {
+      "wrong1": "Iron Man 2",
+      "wrong2": "The Incredible Hulk",
+      "wrong3": "Thor",
+      "correct": "Iron Man"
+    }
+  }
+]
+
+export const EasyMarvel = [
+  {
+    "quest": "What is Iron Man’s real name?",
+    "ans": {
+      "wrong1": "Steve Rogers",
+      "wrong2": "Bruce Banner",
+      "wrong3": "Thor",
+      "correct": "Tony Stark"
+    }
+  },
+  {
+    "quest": "Which superhero is known as the 'God of Thunder'?",
+    "ans": {
+      "wrong1": "Iron Man",
+      "wrong2": "Captain America",
+      "wrong3": "Hulk",
+      "correct": "Thor"
+    }
+  },
+  {
+    "quest": "What metal is Captain America’s shield made of?",
+    "ans": {
+      "wrong1": "Steel",
+      "wrong2": "Iron",
+      "wrong3": "Gold",
+      "correct": "Vibranium"
+    }
+  },
+  {
+    "quest": "Who is Peter Parker’s superhero alter ego?",
+    "ans": {
+      "wrong1": "Iron Man",
+      "wrong2": "Hawkeye",
+      "wrong3": "Captain Marvel",
+      "correct": "Spider-Man"
+    }
+  },
+  {
+    "quest": "What is the name of the Marvel superhero who can shrink and control ants?",
+    "ans": {
+      "wrong1": "Ant-Man",
+      "wrong2": "Beetle",
+      "wrong3": "Wasp",
+      "correct": "Ant-Man"
+    }
+  },
+  {
+    "quest": "Who is the leader of the Avengers?",
+    "ans": {
+      "wrong1": "Thor",
+      "wrong2": "Iron Man",
+      "wrong3": "Black Panther",
+      "correct": "Captain America"
+    }
+  },
+  {
+    "quest": "What is the name of the superhero team that includes Star-Lord and Gamora?",
+    "ans": {
+      "wrong1": "X-Men",
+      "wrong2": "The Avengers",
+      "wrong3": "Fantastic Four",
+      "correct": "Guardians of the Galaxy"
+    }
+  },
+  {
+    "quest": "Which superhero uses a bow and arrow as their main weapon?",
+    "ans": {
+      "wrong1": "Hawkeye",
+      "wrong2": "Black Widow",
+      "wrong3": "Captain America",
+      "correct": "Hawkeye"
+    }
+  },
+  {
+    "quest": "Who is the superhero with a metal suit that can fly and shoot lasers?",
+    "ans": {
+      "wrong1": "Thor",
+      "wrong2": "Black Panther",
+      "wrong3": "Captain Marvel",
+      "correct": "Iron Man"
+    }
+  },
+  {
+    "quest": "Which superhero is known for saying ‘Hulk smash!’?",
+    "ans": {
+      "wrong1": "Thor",
+      "wrong2": "Iron Man",
+      "wrong3": "Spider-Man",
+      "correct": "Hulk"
+    }
+  },
+  {
+    "quest": "Who is the Black Panther?",
+    "ans": {
+      "wrong1": "T’Challa",
+      "wrong2": "Killmonger",
+      "wrong3": "Shuri",
+      "correct": "T’Challa"
+    }
+  },
+  {
+    "quest": "Which Marvel character is a sorcerer and protector of the mystical arts?",
+    "ans": {
+      "wrong1": "Wanda Maximoff",
+      "wrong2": "Doctor Doom",
+      "wrong3": "Loki",
+      "correct": "Doctor Strange"
+    }
+  },
+  {
+    "quest": "Which hero has a shield and wears a star on his costume?",
+    "ans": {
+      "wrong1": "Iron Man",
+      "wrong2": "Black Panther",
+      "wrong3": "Spider-Man",
+      "correct": "Captain America"
+    }
+  },
+  {
+    "quest": "Who is known as the ‘Merc with a Mouth’?",
+    "ans": {
+      "wrong1": "Deadpool",
+      "wrong2": "Spider-Man",
+      "wrong3": "Hawkeye",
+      "correct": "Deadpool"
+    }
+  },
+  {
+    "quest": "Which superhero can shrink to the size of an ant?",
+    "ans": {
+      "wrong1": "Wasp",
+      "wrong2": "Ant-Man",
+      "wrong3": "Black Widow",
+      "correct": "Ant-Man"
+    }
+  },
+  {
+    "quest": "What is the name of Thor’s hammer?",
+    "ans": {
+      "wrong1": "Stormbreaker",
+      "wrong2": "Mjolnir",
+      "wrong3": "Gungnir",
+      "correct": "Mjolnir"
+    }
+  },
+  {
+    "quest": "Who is the main villain in ‘Avengers: Infinity War’?",
+    "ans": {
+      "wrong1": "Ultron",
+      "wrong2": "Loki",
+      "wrong3": "Thanos",
+      "correct": "Thanos"
+    }
+  },
+  {
+    "quest": "Which hero was frozen in ice before being revived in the modern age?",
+    "ans": {
+      "wrong1": "Iron Man",
+      "wrong2": "Thor",
+      "wrong3": "Hawkeye",
+      "correct": "Captain America"
+    }
+  },
+  {
+    "quest": "Who is the sister of the Black Panther in the MCU?",
+    "ans": {
+      "wrong1": "Shuri",
+      "wrong2": "Okoye",
+      "wrong3": "Nakia",
+      "correct": "Shuri"
+    }
+  },
+  {
+    "quest": "What is the name of Tony Stark’s AI assistant?",
+    "ans": {
+      "wrong1": "FRIDAY",
+      "wrong2": "KAREN",
+      "wrong3": "JARVIS",
+      "correct": "JARVIS"
+    }
+  }
+]

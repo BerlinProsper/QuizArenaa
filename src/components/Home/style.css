@@ -1,11 +1,11 @@
 .Chip {
   font-family: sans-serif;
   display: flex;
-  flex-direction: row; /* <--- KEY: Make it row, not column */
-  flex-wrap: wrap;      /* Allow wrapping if too many chips */
+  flex-direction: row; 
+  flex-wrap: wrap;      
   justify-content: center;
   align-items: center;
-  gap: 8px;             /* Optional: spacing between chips */
+  gap: 8px;          
   height: auto;
   padding: 20px;
 }

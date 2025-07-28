@@ -13,18 +13,19 @@ import './Nowquiz.css';
 import '../overlays/level.css';
 import CountdownTimer from "../overlays/countdown";
 import CircularTimer from "../overlays/countdown";
+import Congratulations from "../overlays/Congratulations";
 export default function GameSpace() {
    const navigate = useNavigate();
-  const { selectedItems, setAllQuestions, difficulty, allQuestions, level, setShowLevel, showLevel, myNowScore, myScore, highScore , limit, nextTimer} = useMyContext();
+  const { selectedItems, setAllQuestions,levelDetails, diffUp, difficulty, allQuestions,msgHeader, level, setShowLevel, showLevel, myNowScore, myScore, highScore , limit, nextTimer} = useMyContext();
  const hasRun = useRef(false)
  console.log("timer"+ limit);
- 
+  
   useEffect(() => {
     if (hasRun.current) return;
   hasRun.current = true;
   selectedItems.forEach((item) => {
       console.log("inside looped selectitems", item);
-      const category = difficulty + item.id;
+      const category = levelDetails[level].difficulty + item.id;
       console.log("inside looped selectitems", category);
       console.log("data[category]", data[category]);
     if (Array.isArray(data[category])) {
@@ -44,20 +45,26 @@ export default function GameSpace() {
   if (selectedItems.length === 0) {
     navigate("/", { replace: true });
   }
-}, [difficulty, selectedItems]);
+}, [difficulty, selectedItems , diffUp]);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowLevel(false);
-    }, 3000); // 3000 ms = 3 seconds
+    }, 3000); 
 
-    return () => clearTimeout(timer); // Cleanup on unmount
+    return () => clearTimeout(timer); 
   }, [level]);
   return (
     <div style={styles.container}>
       <MyScore /> 
- 
+
+      {
+        msgHeader==''?<div></div> :<Congratulations/>
+      }
+  <Congratulations/>
  <div style={styles.rowContainer}>
+  <span>
+    <div>
       <SplitText
         key={`level-${level}`}
         text={`Level - ${level}`}
@@ -73,6 +80,40 @@ export default function GameSpace() {
         rootMargin="-100px"
         textAlign="left"
       />
+     </div>
+     <div>
+            <SplitText
+        key={`level-${level}`}
+        text={`Right Answer: ${levelDetails[level].score} point`}
+        className="level-text2"
+        delay={0}
+        duration={0}
+        ease="power3.out"
+        splitType="chars"
+        
+        from={{ opacity: 0, y: 40 }}
+        to={{ opacity: 1, y: 0 }}
+        threshold={0.1}
+        rootMargin="-100px"
+        textAlign="left"
+      /></div><div>
+                <SplitText
+        key={`level-${level}`}
+        text={`Wrong Answer: - ${levelDetails[level].negativeScore} point`}
+        className="level-text2"
+        delay={0}
+        duration={0}
+        ease="power3.out"
+        splitType="chars"
+        
+        from={{ opacity: 0, y: 40 }}
+        to={{ opacity: 1, y: 0 }}
+        threshold={0.1}
+        rootMargin="-100px"
+        textAlign="left"
+      />
+    </div>
+</span>
       {
         level > 1 ?  <span><CircularTimer limit={limit} key={nextTimer}/> </span >
         : <span></span>
@@ -90,6 +131,7 @@ export default function GameSpace() {
 }
 
 const styles = {
+  
   container: {
     background: "linear-gradient(135deg, #9fc0e1ff 0%, #026468ff 100%)",
     height: "100vh",
@@ -102,10 +144,10 @@ const styles = {
   rowContainer: {
     width: "100%",
     display: "flex",
-    justifyContent: "space-between", // pushes left and right
+    justifyContent: "space-between",
     alignItems: "center",
-    padding: "20px 20px", // adjust spacing
-    position: "relative", // allows absolute positioning inside if needed
+    padding: "20px 20px", 
+    position: "relative",
   },
   scoreText: {
   fontFamily: "'Orbitron', sans-serif",
@@ -143,6 +185,19 @@ scoreText1: {
     1px -1px 0 #026468ff,
     -1px 1px 0 #026468ff,
     1px 1px 0 #026468ff
+  `,
+},
+scoreText3: {
+  fontFamily: "'Orbitron', sans-serif",
+  fontSize: "20px",
+  fontWeight: "bold",
+  color: "#032e24ff;",
+  whiteSpace: "nowrap",
+  textShadow: `
+    -1px -1px 0 #033638ff,  
+    1px -1px 0 #033638ff,
+    -1px 1px 0 #033638ff,
+    1px 1px 0 #033638ff
   `,
 },
 

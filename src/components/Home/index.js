@@ -52,11 +52,11 @@ useEffect(() => {
 setSelectedItems([]);
 setNoItems(0);
 }, []);
-  
+   
           const navigate = useNavigate();
   return (
     <div style={styles.container}>
-      {alert && <PopUpMsg />}
+      {alert  && <PopUpMsg />}
           <h2
         style={{
       color: '#074844ff',

@@ -14,25 +14,15 @@ export default function Nowquiz() {
     myNowScore, setMyNowScore, myScore, setMyScore,
     count, setCount, level, username,
     highScore, setHighScore, limit, setLimit,
-    setNextTimer, nextTimer
+    setNextTimer, nextTimer , levelDetails, setDiffUp,
   } = useMyContext();
 
-  const question = allQuestions[0]; // Current question
+  const question = allQuestions[0]; 
 
   const [shuffledAnswers, setShuffledAnswers] = useState([]);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [answerStatus, setAnswerStatus] = useState(null);
 
-  const levelDetails = {
-    1: { time: 0, score: 5, negativeScore: 0, count: 15, difficulty: 'Easy' },
-    2: { time: 15, score: 5, negativeScore: 1, count: 15, difficulty: 'Easy' },
-    3: { time: 10, score: 5, negativeScore: 3, count: 15, difficulty: 'Easy' },
-    4: { time: 10, score: 8, negativeScore: 3, count: 15, difficulty: 'Moderate' },
-    5: { time: 8, score: 10, negativeScore: 5, count: 15, difficulty: 'Moderate' },
-    6: { time: 8, score: 10, negativeScore: 8, count: 15, difficulty: 'Moderate' },
-    7: { time: 5, score: 10, negativeScore: 8, count: 15, difficulty: 'Moderate' },
-    8: { time: 5, score: 10, negativeScore: 10, count: 15, difficulty: 'Moderate' }
-  };
 
   useEffect(() => {
     const shuffled = shuffleArray(allQuestions);
@@ -46,7 +36,7 @@ export default function Nowquiz() {
       const timeout = setTimeout(() => {
         setAllQuestions((prev) => prev.slice(1));
         setNextTimer(true);
-      }, 2500); // wait 2.5 seconds showing correct
+      }, 1000); 
 
       return () => clearTimeout(timeout);
     }
@@ -86,6 +76,9 @@ export default function Nowquiz() {
     setCount((prev) => prev + 1);
 
     if ((count + 1) % 15 === 0 && count !== 0) {
+      if(level==3){
+        setDiffUp(true)
+      }
       setLevel((prev) => prev + 1);
       setLimit(levelDetails[level + 1]?.time || 10);
 
@@ -99,8 +92,8 @@ export default function Nowquiz() {
     }
 
     setTimeout(() => {
-      setNextTimer(false); // triggers 2.5s delay to move forward
-    }, 500); // show result before next question delay starts
+      setNextTimer(false); 
+    }, 500); 
   };
 
   if (!question) return <div>✅ Quiz Completed!</div>;

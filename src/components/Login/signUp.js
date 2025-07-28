@@ -1,6 +1,6 @@
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { fetchSignInMethodsForEmail } from 'firebase/auth';
-import { auth } from '../../firebase'; // your config file
+import { auth } from '../../firebase'; 
 export const HandleSignUp = async (username, password , setAlert , setIsLogin, isLogin) => {
   try {
     await createUserWithEmailAndPassword(auth, username, password);
