@@ -1,4 +1,4 @@
-const ModerateSports=[
+export const ModerateSports=[
   { "quest": "Which sport is known as the 'king of sports'?", "ans": { "correct": "Soccer", "wrong1": "Basketball", "wrong2": "Cricket", "wrong3": "Tennis" } },
   { "quest": "How many players are on a basketball team on the court?", "ans": { "wrong1": "6", "wrong2": "4", "correct": "5", "wrong3": "7" } },
   { "quest": "What piece of equipment is used in baseball to hit the ball?", "ans": { "wrong1": "Racket", "wrong2": "Glove", "wrong3": "Stick", "correct": "Bat" } },
@@ -103,7 +103,7 @@ const ModerateSports=[
 ]
 
 
-const EasySports =[
+export const EasySports =[
   {
     "quest": "What is the national sport of Brazil?",
     "ans": {
@@ -121,7 +121,7 @@ const EasySports =[
       "wrong2": "12",
       "wrong3": "9"
     }
-  },
+  }, 
   {
     "quest": "What sport uses a bat, ball, and wickets?",
     "ans": {
@@ -286,7 +286,7 @@ const EasySports =[
   }
 ]
 
-const ModerateMovieShows=[
+export const ModerateMovieShows=[
   { "quest": "In 'The Shawshank Redemption', what was Andy Dufresne’s profession before prison?", "ans": { "wrong1": "Bank manager", "wrong2": "Doctor", "correct": "Banker", "wrong3": "Lawyer" } },
   { "quest": "In 'Inception', what object does Cobb use to determine reality?", "ans": { "wrong1": "Die", "correct": "Top", "wrong2": "Coin", "wrong3": "Ring" } },
   { "quest": "In 'Game of Thrones', who is known as the 'Mother of Dragons'?", "ans": { "wrong1": "Cersei Lannister", "wrong2": "Sansa Stark", "correct": "Daenerys Targaryen", "wrong3": "Lyanna Stark" } },
@@ -360,7 +360,7 @@ const ModerateMovieShows=[
 
 
 
-const EasyMovieShows = [
+export const EasyMovieShows = [
   {
     "quest": "Who is the main character in the Harry Potter movies?",
     "ans": {
@@ -543,7 +543,7 @@ const EasyMovieShows = [
   }
 ]
 
-const HardGK = [
+export const ModerateGK = [
   {"quest":"What is the capital of Burkina Faso?","ans":{"wrong1":"Gaborone","wrong2":"Ouagadougou","wrong3":"Niamey","correct":"Ouagadougou"}},
   {"quest":"Who proposed the wave theory of light in 1678?","ans":{"wrong1":"Newton","wrong2":"Huygens","wrong3":"Hooke","correct":"Huygens"}},
   {"quest":"Which river passes through Vienna, Austria?","ans":{"wrong1":"Rhine","wrong2":"Elbe","wrong3":"Danube","correct":"Danube"}},
@@ -632,9 +632,7 @@ const HardGK = [
   {"quest":"Which desert covers much of northern India?","ans":{"wrong1":"Thar Desert","wrong2":"Gobi","wrong3":"Sahara","correct":"Thar Desert"}},
   {"quest":"What does DNA stand for?","ans":{"wrong1":"Deoxyribonucleic Acid","wrong2":"Deoxyribose Nucleic Acid","wrong3":"Dioxy Nucleic Acid","correct":"Deoxyribonucleic Acid"}},
   {"quest":"Which planet is called the red planet?","ans":{"wrong1":"Jupiter","wrong2":"Venus","wrong3":"Mars","correct":"Mars"}}
-] 
-const ModerateGK=[
-  {"quest": "Which is the largest desert in the world?", "ans": {"wrong1": "Gobi", "wrong2": "Sahara", "correct": "Antarctic Desert", "wrong3": "Arabian"}},
+,  {"quest": "Which is the largest desert in the world?", "ans": {"wrong1": "Gobi", "wrong2": "Sahara", "correct": "Antarctic Desert", "wrong3": "Arabian"}},
   {"quest": "What is the capital of Australia?", "ans": {"wrong1": "Sydney", "wrong2": "Melbourne", "correct": "Canberra", "wrong3": "Brisbane"}},
   {"quest": "Who painted the Mona Lisa?", "ans": {"wrong1": "Vincent van Gogh", "wrong2": "Pablo Picasso", "correct": "Leonardo da Vinci", "wrong3": "Claude Monet"}},
   {"quest": "What is the smallest prime number?", "ans": {"wrong1": "0", "wrong2": "1", "correct": "2", "wrong3": "3"}},
@@ -712,7 +710,7 @@ const ModerateGK=[
 
 
 
-const EasyGK= [
+export const EasyGK= [
   {
     "quest": "What planet do we live on?",
     "ans": {
@@ -895,7 +893,7 @@ const EasyGK= [
   }
 ]
 
-const ModerateScience = [
+export const ModerateScience = [
   {"quest":"What is the chemical symbol for mercury?","ans":{"wrong1":"Mg","wrong2":"Me","wrong3":"Mn","correct":"Hg"}},
   {"quest":"What particle has no electric charge?","ans":{"wrong1":"Proton","wrong2":"Electron","wrong3":"Positron","correct":"Neutron"}},
   {"quest":"Which element is atomic number 79?","ans":{"wrong1":"Osmium","wrong2":"Rhodium","wrong3":"Palladium","correct":"Gold"}},
@@ -962,7 +960,7 @@ const ModerateScience = [
 ]
 
 
-const EasyScience =[
+export const EasyScience =[
   {"quest":"What planet do we live on?","ans":{"wrong1":"Mars","wrong2":"Jupiter","wrong3":"Venus","correct":"Earth"}},
   {"quest":"What gas do humans need to breathe?","ans":{"wrong1":"Carbon dioxide","wrong2":"Nitrogen","wrong3":"Helium","correct":"Oxygen"}},
   {"quest":"How many legs does an insect have?","ans":{"wrong1":"Four","wrong2":"Eight","wrong3":"Ten","correct":"Six"}},
@@ -1014,5 +1012,1462 @@ const EasyScience =[
   {"quest":"What is the name of the tool used to look at stars?","ans":{"wrong1":"Microscope","wrong2":"Stethoscope","wrong3":"Periscope","correct":"Telescope"}},
   {"quest":"What do we use to measure temperature?","ans":{"wrong1":"Scale","wrong2":"Clock","wrong3":"Ruler","correct":"Thermometer"}},
   {"quest":"What type of energy does the Sun give off?","ans":{"wrong1":"Wind","wrong2":"Sound","wrong3":"Nuclear","correct":"Light and heat"}}
+]
+
+export const ModerateCars =[
+  {
+    "quest": "What does VIN stand for in the automotive industry?",
+    "ans": {
+      "wrong1": "Vehicle Identity Number",
+      "wrong2": "Vehicle Information Name",
+      "wrong3": "Verified Identification Number",
+      "correct": "Vehicle Identification Number"
+    }
+  },
+  {
+    "quest": "Which company produced the first diesel‑engine production car?",
+    "ans": {
+      "wrong1": "Ford",
+      "wrong2": "BMW",
+      "wrong3": "Toyota",
+      "correct": "Mercedes‑Benz"
+    }
+  },
+  {
+    "quest": "Which car was the first to break the 300 mph speed barrier?",
+    "ans": {
+      "wrong1": "Koenigsegg Agera RS",
+      "wrong2": "Hennessey Venom F5",
+      "wrong3": "SSC Tuatara",
+      "correct": "Bugatti Chiron Super Sport 300+"
+    }
+  },
+  {
+    "quest": "Which car held the record for the longest continuous drift (232 miles)?",
+    "ans": {
+      "wrong1": "Toyota Supra",
+      "wrong2": "Nissan GT‑R",
+      "wrong3": "Dodge Charger",
+      "correct": "BMW M5"
+    }
+  },
+  {
+    "quest": "Which car maker pioneered the moving assembly line for mass production?",
+    "ans": {
+      "wrong1": "General Motors",
+      "wrong2": "Fiat",
+      "wrong3": "Chrysler",
+      "correct": "Ford"
+    }
+  },
+  {
+    "quest": "What was the first production car to feature a continuously variable transmission (CVT)?",
+    "ans": {
+      "wrong1": "Toyota Corolla",
+      "wrong2": "Honda Civic",
+      "wrong3": "Mazda RX‑7",
+      "correct": "Subaru Justy"
+    }
+  },
+  {
+    "quest": "Which was the first car to offer anti‑lock braking (ABS) as standard equipment?",
+    "ans": {
+      "wrong1": "Mercedes‑Benz S‑Class W126",
+      "wrong2": "Toyota Camry",
+      "wrong3": "Volvo 240",
+      "correct": "Mercedes‑Benz S‑Class W116"
+    }
+  },
+  {
+    "quest": "Which manufacturer first used twin‑turbochargers in a production car (the Porsche 959)?",
+    "ans": {
+      "wrong1": "Ferrari",
+      "wrong2": "Lamborghini",
+      "wrong3": "Audi",
+      "correct": "Porsche"
+    }
+  },
+  {
+    "quest": "Who invented the first gas‑powered car in 1885?",
+    "ans": {
+      "wrong1": "Henry Ford",
+      "wrong2": "Karl Benz",
+      "wrong3": "Gottlieb Daimler",
+      "correct": "Karl Benz"
+    }
+  },
+  {
+    "quest": "Which electric vehicle holds the record for longest continuous drift (26 miles)?",
+    "ans": {
+      "wrong1": "Tesla Model S",
+      "wrong2": "Nissan Leaf",
+      "wrong3": "Ford Mustang Mach‑E",
+      "correct": "Porsche Taycan"
+    }
+  }
+]
+export const EasyCars = [
+  {
+    "quest": "What does ABS stand for in car safety systems?",
+    "ans": {
+      "wrong1": "Advanced Brake System",
+      "wrong2": "Automatic Balance Shift",
+      "wrong3": "Auto Braking Setup",
+      "correct": "Anti-lock Braking System"
+    }
+  },
+  {
+    "quest": "What type of engine is commonly found in most cars?",
+    "ans": {
+      "wrong1": "Steam engine",
+      "wrong2": "Electric motor only",
+      "wrong3": "Jet engine",
+      "correct": "Internal combustion engine"
+    }
+  },
+  {
+    "quest": "Which car company produces the 'Mustang'?",
+    "ans": {
+      "wrong1": "Chevrolet",
+      "wrong2": "Dodge",
+      "wrong3": "Toyota",
+      "correct": "Ford"
+    }
+  },
+  {
+    "quest": "What does the 'RPM' gauge in a car measure?",
+    "ans": {
+      "wrong1": "Fuel usage",
+      "wrong2": "Speed",
+      "wrong3": "Oil pressure",
+      "correct": "Engine revolutions per minute"
+    }
+  },
+  {
+    "quest": "Which country is home to the car brand 'Toyota'?",
+    "ans": {
+      "wrong1": "Germany",
+      "wrong2": "South Korea",
+      "wrong3": "USA",
+      "correct": "Japan"
+    }
+  },
+  {
+    "quest": "What is the name of the part that charges the battery while the engine runs?",
+    "ans": {
+      "wrong1": "Radiator",
+      "wrong2": "Compressor",
+      "wrong3": "Starter motor",
+      "correct": "Alternator"
+    }
+  },
+  {
+    "quest": "Which Italian company is famous for its red sports cars?",
+    "ans": {
+      "wrong1": "Lamborghini",
+      "wrong2": "Alfa Romeo",
+      "wrong3": "Fiat",
+      "correct": "Ferrari"
+    }
+  },
+  {
+    "quest": "What does 'MPG' stand for in car fuel ratings?",
+    "ans": {
+      "wrong1": "Miles Powered by Gasoline",
+      "wrong2": "Motor Performance Grade",
+      "wrong3": "Mileage Per Gear",
+      "correct": "Miles Per Gallon"
+    }
+  },
+  {
+    "quest": "Which car part cools the engine?",
+    "ans": {
+      "wrong1": "Carburetor",
+      "wrong2": "Catalytic converter",
+      "wrong3": "Alternator",
+      "correct": "Radiator"
+    }
+  },
+  {
+    "quest": "What is the purpose of a catalytic converter?",
+    "ans": {
+      "wrong1": "Increase fuel efficiency",
+      "wrong2": "Cool the engine",
+      "wrong3": "Reduce noise",
+      "correct": "Reduce harmful emissions"
+    }
+  },
+  {
+    "quest": "Which brand produces the 'Civic' model?",
+    "ans": {
+      "wrong1": "Mazda",
+      "wrong2": "Hyundai",
+      "wrong3": "Subaru",
+      "correct": "Honda"
+    }
+  },
+  {
+    "quest": "What kind of car is typically powered by both a gasoline engine and an electric motor?",
+    "ans": {
+      "wrong1": "Diesel",
+      "wrong2": "Manual",
+      "wrong3": "SUV",
+      "correct": "Hybrid"
+    }
+  },
+  {
+    "quest": "Which German manufacturer uses the slogan 'Vorsprung durch Technik'?",
+    "ans": {
+      "wrong1": "BMW",
+      "wrong2": "Volkswagen",
+      "wrong3": "Mercedes-Benz",
+      "correct": "Audi"
+    }
+  },
+  {
+    "quest": "What does 4WD stand for in vehicles?",
+    "ans": {
+      "wrong1": "Four-Wheel Downshift",
+      "wrong2": "Full Wheel Drive",
+      "wrong3": "Four Way Drive",
+      "correct": "Four-Wheel Drive"
+    }
+  },
+  {
+    "quest": "Which car company makes the 'Camry'?",
+    "ans": {
+      "wrong1": "Nissan",
+      "wrong2": "Ford",
+      "wrong3": "Kia",
+      "correct": "Toyota"
+    }
+  },
+  {
+    "quest": "What component is used to start a car’s engine?",
+    "ans": {
+      "wrong1": "Radiator",
+      "wrong2": "Muffler",
+      "wrong3": "Carburetor",
+      "correct": "Starter motor"
+    }
+  },
+  {
+    "quest": "What kind of transmission requires the driver to shift gears manually?",
+    "ans": {
+      "wrong1": "Electric",
+      "wrong2": "Automatic",
+      "wrong3": "Hydraulic",
+      "correct": "Manual"
+    }
+  },
+  {
+    "quest": "Which car manufacturer is known for the 'Model S' and 'Model 3'?",
+    "ans": {
+      "wrong1": "Nissan",
+      "wrong2": "Chevrolet",
+      "wrong3": "BMW",
+      "correct": "Tesla"
+    }
+  },
+  {
+    "quest": "Which part of the car keeps you from flying forward in a crash?",
+    "ans": {
+      "wrong1": "Mirrors",
+      "wrong2": "Gear stick",
+      "wrong3": "Wipers",
+      "correct": "Seatbelt"
+    }
+  },
+  {
+    "quest": "What is the function of windshield wipers?",
+    "ans": {
+      "wrong1": "Cool the engine",
+      "wrong2": "Power the wheels",
+      "wrong3": "Defrost the windows",
+      "correct": "Clear rain from the windshield"
+    }
+  }
+]
+
+
+export const ModerateGeography = [
+  {
+    "quest": "What country has three capital cities: legislative, judicial, and administrative?",
+    "ans": {
+      "wrong1": "Switzerland",
+      "wrong2": "Australia",
+      "wrong3": "Canada",
+      "correct": "South Africa"
+    }
+  },
+  {
+    "quest": "Which is the world’s deepest known ocean location?",
+    "ans": {
+      "wrong1": "Puerto Rico Trench",
+      "wrong2": "Tonga Trench",
+      "wrong3": "Kuril–Kamchatka Trench",
+      "correct": "Challenger Deep"
+    }
+  },
+  {
+    "quest": "By land area, which is the largest country entirely in Europe?",
+    "ans": {
+      "wrong1": "France",
+      "wrong2": "Spain",
+      "wrong3": "Poland",
+      "correct": "Ukraine"
+    }
+  },
+  {
+    "quest": "How many countries border the Black Sea?",
+    "ans": {
+      "wrong1": "Five",
+      "wrong2": "Seven",
+      "wrong3": "Four",
+      "correct": "Six"
+    }
+  },
+  {
+    "quest": "What is the only Central American country with English as its official language?",
+    "ans": {
+      "wrong1": "Guatemala",
+      "wrong2": "Panama",
+      "wrong3": "Costa Rica",
+      "correct": "Belize"
+    }
+  },
+  {
+    "quest": "Which European country has the highest population density?",
+    "ans": {
+      "wrong1": "Liechtenstein",
+      "wrong2": "Monaco",
+      "wrong3": "Malta",
+      "correct": "Monaco"
+    }
+  },
+  {
+    "quest": "Which country has the largest number of islands?",
+    "ans": {
+      "wrong1": "Finland",
+      "wrong2": "Canada",
+      "wrong3": "Indonesia",
+      "correct": "Sweden"
+    }
+  },
+  {
+    "quest": "What is the world's largest freshwater island?",
+    "ans": {
+      "wrong1": "Vancouver Island",
+      "wrong2": "Manhattan",
+      "wrong3": "Prince Edward Island",
+      "correct": "Manitoulin Island"
+    }
+  },
+  {
+    "quest": "Which is Africa’s second longest river after the Nile?",
+    "ans": {
+      "wrong1": "Niger",
+      "wrong2": "Zambezi",
+      "wrong3": "Orange",
+      "correct": "Congo"
+    }
+  },
+  {
+    "quest": "Which European river is the continent’s second longest after the Volga?",
+    "ans": {
+      "wrong1": "Rhone",
+      "wrong2": "Danube",
+      "wrong3": "Seine",
+      "correct": "Danube"
+    }
+  },
+  {
+    "quest": "Which country is home to the Great Victoria Desert?",
+    "ans": {
+      "wrong1": "Namibia",
+      "wrong2": "Mexico",
+      "wrong3": "Saudi Arabia",
+      "correct": "Australia"
+    }
+  },
+  {
+    "quest": "Which is the smallest Canadian province by area?",
+    "ans": {
+      "wrong1": "New Brunswick",
+      "wrong2": "Nova Scotia",
+      "wrong3": "Prince Edward Island",
+      "correct": "Prince Edward Island"
+    }
+  },
+  {
+    "quest": "Which sea lies between Australia and New Zealand?",
+    "ans": {
+      "wrong1": "Coral Sea",
+      "wrong2": "Tasman Sea",
+      "wrong3": "Arafura Sea",
+      "correct": "Tasman Sea"
+    }
+  },
+  {
+    "quest": "What is the largest country in Africa by land area?",
+    "ans": {
+      "wrong1": "Sudan",
+      "wrong2": "Libya",
+      "wrong3": "Egypt",
+      "correct": "Algeria"
+    }
+  },
+  {
+    "quest": "Where are the ruins of the ancient city of Troy?",
+    "ans": {
+      "wrong1": "Greece",
+      "wrong2": "Italy",
+      "wrong3": "Egypt",
+      "correct": "Turkey"
+    }
+  },
+  {
+    "quest": "By area, which is the largest body of fresh water in the world?",
+    "ans": {
+      "wrong1": "Lake Victoria",
+      "wrong2": "Lake Michigan",
+      "wrong3": "Lake Baikal",
+      "correct": "Lake Superior"
+    }
+  },
+  {
+    "quest": "What is the shallowest ocean in the world?",
+    "ans": {
+      "wrong1": "Indian Ocean",
+      "wrong2": "Atlantic Ocean",
+      "wrong3": "Southern Ocean",
+      "correct": "Arctic Ocean"
+    }
+  },
+  {
+    "quest": "Which continent has no countries?",
+    "ans": {
+      "wrong1": "Asia",
+      "wrong2": "Africa",
+      "wrong3": "Europe",
+      "correct": "Antarctica"
+    }
+  },
+  {
+    "quest": "Which river forms the border between Mexico and the United States?",
+    "ans": {
+      "wrong1": "Mississippi",
+      "wrong2": "Colorado",
+      "wrong3": "Rio Grande",
+      "correct": "Rio Grande"
+    }
+  },
+  {
+    "quest": "What is the flattest country in the world by elevation?",
+    "ans": {
+      "wrong1": "Maldives",
+      "wrong2": "Netherlands",
+      "wrong3": "Denmark",
+      "correct": "Maldives"
+    }
+  },
+  {
+    "quest": "Which lake is nicknamed 'The Jewel of the Sierra Nevada'?",
+    "ans": {
+      "wrong1": "Lake Como",
+      "wrong2": "Loch Ness",
+      "wrong3": "Lake Tahoe",
+      "correct": "Lake Tahoe"
+    }
+  },
+  {
+    "quest": "Which desert is the world’s largest (non-polar)?",
+    "ans": {
+      "wrong1": "Gobi Desert",
+      "wrong2": "Sahara Desert",
+      "wrong3": "Kalahari Desert",
+      "correct": "Sahara Desert"
+    }
+  },
+  {
+    "quest": "Which is the world’s longest mountain range?",
+    "ans": {
+      "wrong1": "Rocky Mountains",
+      "wrong2": "Himalayas",
+      "wrong3": "Andes",
+      "correct": "Andes"
+    }
+  },
+  {
+    "quest": "Which mountain separates Europe and Asia?",
+    "ans": {
+      "wrong1": "Alps",
+      "wrong2": "Pyrenees",
+      "wrong3": "Caucasus",
+      "correct": "Ural Mountains"
+    }
+  },
+  {
+    "quest": "The deepest ocean trench is located in which ocean?",
+    "ans": {
+      "wrong1": "Atlantic Ocean",
+      "wrong2": "Indian Ocean",
+      "wrong3": "Southern Ocean",
+      "correct": "Pacific Ocean"
+    }
+  },
+  {
+    "quest": "Which country spans both Europe and Asia?",
+    "ans": {
+      "wrong1": "India",
+      "wrong2": "Egypt",
+      "wrong3": "Ukraine",
+      "correct": "Turkey"
+    }
+  },
+  {
+    "quest": "Which is the southernmost capital city in the world?",
+    "ans": {
+      "wrong1": "Wellington",
+      "wrong2": "Buenos Aires",
+      "wrong3": "Cape Town",
+      "correct": "Wellington"
+    }
+  },
+  {
+    "quest": "Which is the northernmost capital city in the world?",
+    "ans": {
+      "wrong1": "Helsinki",
+      "wrong2": "Oslo",
+      "wrong3": "St. Petersburg",
+      "correct": "Reykjavik"
+    }
+  },
+  {
+    "quest": "Which country has the longest coastline in the world?",
+    "ans": {
+      "wrong1": "Australia",
+      "wrong2": "USA",
+      "wrong3": "Russia",
+      "correct": "Canada"
+    }
+  },
+  {
+    "quest": "Which river flows through the Grand Canyon?",
+    "ans": {
+      "wrong1": "Missouri",
+      "wrong2": "Colorado",
+      "wrong3": "Rio Grande",
+      "correct": "Colorado River"
+    }
+  },
+  {
+    "quest": "What is the capital of Mongolia?",
+    "ans": {
+      "wrong1": "Ulanbaatar",
+      "wrong2": "Astana",
+      "wrong3": "Tashkent",
+      "correct": "Ulaanbaatar"
+    }
+  },
+  {
+    "quest": "Which country is both an island and a continent?",
+    "ans": {
+      "wrong1": "Greenland",
+      "wrong2": "Iceland",
+      "wrong3": "Madagascar",
+      "correct": "Australia"
+    }
+  },
+  {
+    "quest": "Which country was most recently recognized by the UN (as of 2011)?",
+    "ans": {
+      "wrong1": "Kosovo",
+      "wrong2": "Montenegro",
+      "wrong3": "South Sudan",
+      "correct": "South Sudan"
+    }
+  },
+  {
+    "quest": "Which river crosses the Equator twice?",
+    "ans": {
+      "wrong1": "Amazon River",
+      "wrong2": "Nile River",
+      "wrong3": "Mississippi River",
+      "correct": "Congo River"
+    }
+  },
+  {
+    "quest": "Which European capital is built on nearly 90 islands connected by 400 bridges?",
+    "ans": {
+      "wrong1": "Amsterdam",
+      "wrong2": "Copenhagen",
+      "wrong3": "Saint Petersburg",
+      "correct": "Stockholm"
+    }
+  },
+  {
+    "quest": "Which desert covers the least rainfall average per year?",
+    "ans": {
+      "wrong1": "Atacama Desert",
+      "wrong2": "Gobi Desert",
+      "wrong3": "Sahara Desert",
+      "correct": "Atacama Desert"
+    }
+  },
+  {
+    "quest": "Which country has the most glaciers outside polar regions?",
+    "ans": {
+      "wrong1": "USA",
+      "wrong2": "China",
+      "wrong3": "Argentina",
+      "correct": "Canada"
+    }
+  },
+  {
+    "quest": "What is the smallest independent country in the world by area?",
+    "ans": {
+      "wrong1": "Monaco",
+      "wrong2": "Liechtenstein",
+      "wrong3": "San Marino",
+      "correct": "Vatican City"
+    }
+  },
+  {
+    "quest": "Which African country holds the ruins of Timbuktu?",
+    "ans": {
+      "wrong1": "Nigeria",
+      "wrong2": "Senegal",
+      "wrong3": "Niger",
+      "correct": "Mali"
+    }
+  },
+  {
+    "quest": "What is the coldest national capital city in the world?",
+    "ans": {
+      "wrong1": "Ulaanbaatar",
+      "wrong2": "Astana",
+      "wrong3": "Helsinki",
+      "correct": "Ulaanbaatar"
+    }
+  },
+  {
+    "quest": "Which country’s capital city was formerly called Abyssinia’s capital?",
+    "ans": {
+      "wrong1": "Kenya",
+      "wrong2": "Somalia",
+      "wrong3": "Djibouti",
+      "correct": "Ethiopia"
+    }
+  },
+  {
+    "quest": "Which inland sea separates Arabia from northeast Africa?",
+    "ans": {
+      "wrong1": "Dead Sea",
+      "wrong2": "Red Sea",
+      "wrong3": "Black Sea",
+      "correct": "Red Sea"
+    }
+  },
+  {
+    "quest": "What is the world’s smallest sea by surface area?",
+    "ans": {
+      "wrong1": "Caspian Sea",
+      "wrong2": "Dead Sea",
+      "wrong3": "Baltic Sea",
+      "correct": "Sea of Marmara"
+    }
+  },
+  {
+    "quest": "In which country is Gobustan, known for ancient rock engravings?",
+    "ans": {
+      "wrong1": "Georgia",
+      "wrong2": "Kazakhstan",
+      "wrong3": "Uzbekistan",
+      "correct": "Azerbaijan"
+    }
+  },
+  {
+    "quest": "Which U.S. state has the most national parks?",
+    "ans": {
+      "wrong1": "California",
+      "wrong2": "Yosemite",
+      "wrong3": "Yellowstone",
+      "correct": "California"
+    }
+  },
+  {
+    "quest": "Which country's shape is often compared to a crescent or sickle, bordering the US and Canada in the east?",
+    "ans": {
+      "wrong1": "Michigan",
+      "wrong2": "Florida",
+      "wrong3": "Alaska",
+      "correct": "Newfoundland (Canada)"
+    }
+  }
+]
+
+export const EasyGeography = [
+  {
+    "quest": "What is the capital city of France?",
+    "ans": {
+      "wrong1": "Rome",
+      "wrong2": "Berlin",
+      "wrong3": "Madrid",
+      "correct": "Paris"
+    }
+  },
+  {
+    "quest": "Which ocean is on the west coast of the United States?",
+    "ans": {
+      "wrong1": "Atlantic Ocean",
+      "wrong2": "Indian Ocean",
+      "wrong3": "Arctic Ocean",
+      "correct": "Pacific Ocean"
+    }
+  },
+  {
+    "quest": "Mount Everest is located in which mountain range?",
+    "ans": {
+      "wrong1": "Rocky Mountains",
+      "wrong2": "Andes",
+      "wrong3": "Alps",
+      "correct": "Himalayas"
+    }
+  },
+  {
+    "quest": "What is the largest continent?",
+    "ans": {
+      "wrong1": "Africa",
+      "wrong2": "Europe",
+      "wrong3": "South America",
+      "correct": "Asia"
+    }
+  },
+  {
+    "quest": "Which country is famous for the Great Wall?",
+    "ans": {
+      "wrong1": "India",
+      "wrong2": "Japan",
+      "wrong3": "South Korea",
+      "correct": "China"
+    }
+  },
+  {
+    "quest": "Which continent is known as the 'Dark Continent'?",
+    "ans": {
+      "wrong1": "Australia",
+      "wrong2": "Europe",
+      "wrong3": "South America",
+      "correct": "Africa"
+    }
+  },
+  {
+    "quest": "Which U.S. state is known for having the Grand Canyon?",
+    "ans": {
+      "wrong1": "Utah",
+      "wrong2": "Nevada",
+      "wrong3": "New Mexico",
+      "correct": "Arizona"
+    }
+  },
+  {
+    "quest": "What is the longest river in the world?",
+    "ans": {
+      "wrong1": "Amazon",
+      "wrong2": "Yangtze",
+      "wrong3": "Mississippi",
+      "correct": "Nile"
+    }
+  },
+  {
+    "quest": "Which desert is the largest hot desert in the world?",
+    "ans": {
+      "wrong1": "Gobi Desert",
+      "wrong2": "Kalahari Desert",
+      "wrong3": "Great Victoria Desert",
+      "correct": "Sahara Desert"
+    }
+  },
+  {
+    "quest": "Which U.S. city is known as 'The Big Apple'?",
+    "ans": {
+      "wrong1": "Los Angeles",
+      "wrong2": "Chicago",
+      "wrong3": "San Francisco",
+      "correct": "New York City"
+    }
+  },
+  {
+    "quest": "Which country has the maple leaf on its flag?",
+    "ans": {
+      "wrong1": "Australia",
+      "wrong2": "United Kingdom",
+      "wrong3": "Germany",
+      "correct": "Canada"
+    }
+  },
+  {
+    "quest": "Which sea is located between the United Kingdom and Scandinavia?",
+    "ans": {
+      "wrong1": "Mediterranean Sea",
+      "wrong2": "Black Sea",
+      "wrong3": "Baltic Sea",
+      "correct": "North Sea"
+    }
+  },
+  {
+    "quest": "What is the capital of Japan?",
+    "ans": {
+      "wrong1": "Beijing",
+      "wrong2": "Seoul",
+      "wrong3": "Bangkok",
+      "correct": "Tokyo"
+    }
+  },
+  {
+    "quest": "What is the smallest continent by land area?",
+    "ans": {
+      "wrong1": "Europe",
+      "wrong2": "South America",
+      "wrong3": "Antarctica",
+      "correct": "Australia"
+    }
+  },
+  {
+    "quest": "Which country is shaped like a boot?",
+    "ans": {
+      "wrong1": "Portugal",
+      "wrong2": "Greece",
+      "wrong3": "Spain",
+      "correct": "Italy"
+    }
+  },
+  {
+    "quest": "What is the capital of the United Kingdom?",
+    "ans": {
+      "wrong1": "Manchester",
+      "wrong2": "Edinburgh",
+      "wrong3": "Cardiff",
+      "correct": "London"
+    }
+  },
+  {
+    "quest": "In which country would you find the Eiffel Tower?",
+    "ans": {
+      "wrong1": "Germany",
+      "wrong2": "Italy",
+      "wrong3": "Switzerland",
+      "correct": "France"
+    }
+  },
+  {
+    "quest": "Which continent has the most countries?",
+    "ans": {
+      "wrong1": "Asia",
+      "wrong2": "Europe",
+      "wrong3": "South America",
+      "correct": "Africa"
+    }
+  },
+  {
+    "quest": "What is the capital of the United States?",
+    "ans": {
+      "wrong1": "New York",
+      "wrong2": "Los Angeles",
+      "wrong3": "Chicago",
+      "correct": "Washington, D.C."
+    }
+  },
+  {
+    "quest": "Which country is known for pyramids and the Nile River?",
+    "ans": {
+      "wrong1": "Morocco",
+      "wrong2": "Greece",
+      "wrong3": "Iraq",
+      "correct": "Egypt"
+    }
+  }
+]
+export const ModerateHistory = [
+  {
+    "quest": "Who was the first President of the United States?",
+    "ans": {
+      "wrong1": "Thomas Jefferson",
+      "wrong2": "James Madison",
+      "wrong3": "John Adams",
+      "correct": "George Washington"
+    }
+  },
+  {
+    "quest": "In what year did World War II end?",
+    "ans": {
+      "wrong1": "1943",
+      "wrong2": "1946",
+      "wrong3": "1950",
+      "correct": "1945"
+    }
+  },
+  {
+    "quest": "Which empire did Genghis Khan found?",
+    "ans": {
+      "wrong1": "Ottoman Empire",
+      "wrong2": "Roman Empire",
+      "wrong3": "Mughal Empire",
+      "correct": "Mongol Empire"
+    }
+  },
+  {
+    "quest": "What year did Christopher Columbus first sail to the Americas?",
+    "ans": {
+      "wrong1": "1502",
+      "wrong2": "1498",
+      "wrong3": "1485",
+      "correct": "1492"
+    }
+  },
+  {
+    "quest": "Who delivered the “I Have a Dream” speech in 1963?",
+    "ans": {
+      "wrong1": "Malcolm X",
+      "wrong2": "Rosa Parks",
+      "wrong3": "Martin Luther King I",
+      "correct": "Martin Luther King Jr."
+    }
+  },
+  {
+    "quest": "Which ship sank on its maiden voyage in 1912?",
+    "ans": {
+      "wrong1": "Lusitania",
+      "wrong2": "Britannic",
+      "wrong3": "Olympic",
+      "correct": "Titanic"
+    }
+  },
+  {
+    "quest": "Which ancient wonder stood in Alexandria, Egypt?",
+    "ans": {
+      "wrong1": "Hanging Gardens",
+      "wrong2": "Colossus of Rhodes",
+      "wrong3": "Temple of Artemis",
+      "correct": "Lighthouse of Alexandria"
+    }
+  },
+  {
+    "quest": "Who painted the ceiling of the Sistine Chapel?",
+    "ans": {
+      "wrong1": "Leonardo da Vinci",
+      "wrong2": "Donatello",
+      "wrong3": "Raphael",
+      "correct": "Michelangelo"
+    }
+  },
+  {
+    "quest": "What year did the Berlin Wall fall?",
+    "ans": {
+      "wrong1": "1985",
+      "wrong2": "1992",
+      "wrong3": "1987",
+      "correct": "1989"
+    }
+  },
+  {
+    "quest": "Which war was fought between the North and South regions in the U.S. from 1861–1865?",
+    "ans": {
+      "wrong1": "Revolutionary War",
+      "wrong2": "War of 1812",
+      "wrong3": "Spanish–American War",
+      "correct": "American Civil War"
+    }
+  },
+  {
+    "quest": "Who was exiled to St. Helena after defeat at Waterloo?",
+    "ans": {
+      "wrong1": "Napoleon III",
+      "wrong2": "Charlemagne",
+      "wrong3": "Louis XVI",
+      "correct": "Napoleon Bonaparte"
+    }
+  },
+  {
+    "quest": "What year did the United Nations officially form?",
+    "ans": {
+      "wrong1": "1935",
+      "wrong2": "1950",
+      "wrong3": "1942",
+      "correct": "1945"
+    }
+  },
+  {
+    "quest": "Which country was formerly known as Persia?",
+    "ans": {
+      "wrong1": "Iraq",
+      "wrong2": "Afghanistan",
+      "wrong3": "Syria",
+      "correct": "Iran"
+    }
+  },
+  {
+    "quest": "Who was the first woman to win a Nobel Prize?",
+    "ans": {
+      "wrong1": "Jane Addams",
+      "wrong2": "Marie Curie",
+      "wrong3": "Rosalind Franklin",
+      "correct": "Marie Curie"
+    }
+  },
+  {
+    "quest": "Which American President served more than two terms?",
+    "ans": {
+      "wrong1": "Dwight Eisenhower",
+      "wrong2": "Theodore Roosevelt",
+      "wrong3": "Woodrow Wilson",
+      "correct": "Franklin D. Roosevelt"
+    }
+  },
+  {
+    "quest": "Where did the Renaissance begin?",
+    "ans": {
+      "wrong1": "France",
+      "wrong2": "England",
+      "wrong3": "Spain",
+      "correct": "Italy"
+    }
+  },
+  {
+    "quest": "What ancient trade route connected East to West?",
+    "ans": {
+      "wrong1": "Amber Road",
+      "wrong2": "Spice Route",
+      "wrong3": "Royal Road",
+      "correct": "Silk Road"
+    }
+  },
+  {
+    "quest": "Who was the first emperor of Rome?",
+    "ans": {
+      "wrong1": "Julius Caesar",
+      "wrong2": "Nero",
+      "wrong3": "Caligula",
+      "correct": "Augustus Caesar"
+    }
+  },
+  {
+    "quest": "Which battle in 1815 ended Napoleon’s rule?",
+    "ans": {
+      "wrong1": "Battle of Trafalgar",
+      "wrong2": "Battle of Austerlitz",
+      "wrong3": "Battle of Borodino",
+      "correct": "Battle of Waterloo"
+    }
+  },
+  {
+    "quest": "What was the main cause of the Opium Wars?",
+    "ans": {
+      "wrong1": "Territorial dispute",
+      "wrong2": "Religious conflict",
+      "wrong3": "Labor rights",
+      "correct": "Trade over opium"
+    }
+  },
+  {
+    "quest": "Who was the longest-reigning British monarch before Elizabeth II?",
+    "ans": {
+      "wrong1": "George III",
+      "wrong2": "Edward VII",
+      "wrong3": "William the Conqueror",
+      "correct": "Queen Victoria"
+    }
+  },
+  {
+    "quest": "What was the first successful human powered flight?",
+    "ans": {
+      "wrong1": "Bell X-1",
+      "wrong2": "Spirit of St. Louis",
+      "wrong3": "Wright Flyer I",
+      "correct": "Wright brothers’ flight"
+    }
+  },
+  {
+    "quest": "Who was known as the 'Iron Lady'?",
+    "ans": {
+      "wrong1": "Angela Merkel",
+      "wrong2": "Indira Gandhi",
+      "wrong3": "Golda Meir",
+      "correct": "Margaret Thatcher"
+    }
+  },
+  {
+    "quest": "Which civilization built Machu Picchu?",
+    "ans": {
+      "wrong1": "Aztec Empire",
+      "wrong2": "Maya Empire",
+      "wrong3": "Inuit",
+      "correct": "Inca Empire"
+    }
+  },
+  {
+    "quest": "What Danish astronomer first proposed a sun-centered universe?",
+    "ans": {
+      "wrong1": "Galileo Galilei",
+      "wrong2": "Isaac Newton",
+      "wrong3": "Johannes Kepler",
+      "correct": "Nicolaus Copernicus"
+    }
+  },
+  {
+    "quest": "Who wrote the play 'Romeo and Juliet'?",
+    "ans": {
+      "wrong1": "Charles Dickens",
+      "wrong2": "Christopher Marlowe",
+      "wrong3": "Jane Austen",
+      "correct": "William Shakespeare"
+    }
+  },
+  {
+    "quest": "Which country bought Alaska from Russia in 1867?",
+    "ans": {
+      "wrong1": "United Kingdom",
+      "wrong2": "Canada",
+      "wrong3": "Germany",
+      "correct": "United States"
+    }
+  },
+  {
+    "quest": "What was the name of the ship the Pilgrims sailed on in 1620?",
+    "ans": {
+      "wrong1": "Discovery",
+      "wrong2": "Santa Maria",
+      "wrong3": "Mayflower II",
+      "correct": "Mayflower"
+    }
+  },
+  {
+    "quest": "What treaty ended World War I?",
+    "ans": {
+      "wrong1": "Treaty of Paris",
+      "wrong2": "Treaty of Tordesillas",
+      "wrong3": "Treaty of Ghent",
+      "correct": "Treaty of Versailles"
+    }
+  },
+  {
+    "quest": "In which war did the Battle of Gettysburg take place?",
+    "ans": {
+      "wrong1": "World War I",
+      "wrong2": "Mexican–American War",
+      "wrong3": "Spanish–American War",
+      "correct": "American Civil War"
+    }
+  },
+  {
+    "quest": "Who discovered penicillin?",
+    "ans": {
+      "wrong1": "Marie Curie",
+      "wrong2": "Louis Pasteur",
+      "wrong3": "Joseph Lister",
+      "correct": "Alexander Fleming"
+    }
+  },
+  {
+    "quest": "Which ship symbolized the end of WWII in the Pacific?",
+    "ans": {
+      "wrong1": "USS Enterprise",
+      "wrong2": "USS Arizona",
+      "wrong3": "USS Yorktown",
+      "correct": "USS Missouri"
+    }
+  },
+  {
+    "quest": "What was the first university founded in the world?",
+    "ans": {
+      "wrong1": "University of Bologna",
+      "wrong2": "Oxford University",
+      "wrong3": "Cambridge University",
+      "correct": "University of Al‑Qarawiyyin"
+    }
+  },
+  {
+    "quest": "Which leader’s pilgrimage to Mecca made him the richest man in history?",
+    "ans": {
+      "wrong1": "Charlemagne",
+      "wrong2": "King Solomon",
+      "wrong3": "Cyrus the Great",
+      "correct": "Mansa Musa"
+    }
+  },
+  {
+    "quest": "Who was the first woman to fly solo across the Atlantic?",
+    "ans": {
+      "wrong1": "Valentina Tereshkova",
+      "wrong2": "Sally Ride",
+      "wrong3": "Bessie Coleman",
+      "correct": "Amelia Earhart"
+    }
+  },
+  {
+    "quest": "What city hosted the first modern Olympic Games?",
+    "ans": {
+      "wrong1": "Paris",
+      "wrong2": "Rome",
+      "wrong3": "Berlin",
+      "correct": "Athens"
+    }
+  },
+  {
+    "quest": "What was the shortest war in history, lasting just 38 minutes?",
+    "ans": {
+      "wrong1": "Russo-Japanese War",
+      "wrong2": "Crimean War",
+      "wrong3": "First Balkan War",
+      "correct": "Anglo-Zanzibar War"
+    }
+  },
+  {
+    "quest": "Which Roman emperor made his horse a senator?",
+    "ans": {
+      "wrong1": "Nero",
+      "wrong2": "Caligula",
+      "wrong3": "Claudius",
+      "correct": "Caligula"
+    }
+  },
+  {
+    "quest": "What is the historical period before written records called?",
+    "ans": {
+      "wrong1": "Bronze Age",
+      "wrong2": "Classical Era",
+      "wrong3": "Middle Ages",
+      "correct": "Prehistory"
+    }
+  },
+  {
+    "quest": "Which city was the capital of the Roman Empire?",
+    "ans": {
+      "wrong1": "Athens",
+      "wrong2": "Constantinople",
+      "wrong3": "Carthage",
+      "correct": "Rome"
+    }
+  },
+  {
+    "quest": "Who led the Soviet Union during World War II?",
+    "ans": {
+      "wrong1": "Vladimir Lenin",
+      "wrong2": "Nikita Khrushchev",
+      "wrong3": "Leonid Brezhnev",
+      "correct": "Joseph Stalin"
+    }
+  },
+  {
+    "quest": "Which year did the Russian Revolution begin?",
+    "ans": {
+      "wrong1": "1905",
+      "wrong2": "1922",
+      "wrong3": "1939",
+      "correct": "1917"
+    }
+  },
+  {
+    "quest": "Who composed the 'Choral' Symphony (Symphony No. 9)?",
+    "ans": {
+      "wrong1": "Mozart",
+      "wrong2": "Johannes Brahms",
+      "wrong3": "Frederic Chopin",
+      "correct": "Ludwig van Beethoven"
+    }
+  },
+  {
+    "quest": "Which explorer first circumnavigated the globe?",
+    "ans": {
+      "wrong1": "Christopher Columbus",
+      "wrong2": "Vasco da Gama",
+      "wrong3": "Ferdinand Magellan",
+      "correct": "Ferdinand Magellan"
+    }
+  }
+]
+
+export const EasyHistory = [
+  {
+    "quest": "Who was the first President of the United States?",
+    "ans": {
+      "wrong1": "John Adams",
+      "wrong2": "Thomas Jefferson",
+      "wrong3": "Abraham Lincoln",
+      "correct": "George Washington"
+    }
+  },
+  {
+    "quest": "What structure was built to protect China from invasions?",
+    "ans": {
+      "wrong1": "Berlin Wall",
+      "wrong2": "Pyramids",
+      "wrong3": "Tower of London",
+      "correct": "Great Wall of China"
+    }
+  },
+  {
+    "quest": "Which ship sank on its maiden voyage in 1912?",
+    "ans": {
+      "wrong1": "Lusitania",
+      "wrong2": "Mayflower",
+      "wrong3": "Britannic",
+      "correct": "Titanic"
+    }
+  },
+  {
+    "quest": "Who wrote the Declaration of Independence?",
+    "ans": {
+      "wrong1": "George Washington",
+      "wrong2": "James Madison",
+      "wrong3": "Benjamin Franklin",
+      "correct": "Thomas Jefferson"
+    }
+  },
+  {
+    "quest": "Who discovered America in 1492?",
+    "ans": {
+      "wrong1": "Vasco da Gama",
+      "wrong2": "Marco Polo",
+      "wrong3": "Ferdinand Magellan",
+      "correct": "Christopher Columbus"
+    }
+  },
+  {
+    "quest": "Which war was fought between the North and South in the United States?",
+    "ans": {
+      "wrong1": "World War I",
+      "wrong2": "Revolutionary War",
+      "wrong3": "Vietnam War",
+      "correct": "American Civil War"
+    }
+  },
+  {
+    "quest": "Who was the famous non-violent leader of India?",
+    "ans": {
+      "wrong1": "Jawaharlal Nehru",
+      "wrong2": "Bhagat Singh",
+      "wrong3": "Subhas Chandra Bose",
+      "correct": "Mahatma Gandhi"
+    }
+  },
+  {
+    "quest": "What year did World War II end?",
+    "ans": {
+      "wrong1": "1942",
+      "wrong2": "1947",
+      "wrong3": "1939",
+      "correct": "1945"
+    }
+  },
+  {
+    "quest": "Who was the U.S. President during the Civil War?",
+    "ans": {
+      "wrong1": "George Washington",
+      "wrong2": "Ulysses S. Grant",
+      "wrong3": "Theodore Roosevelt",
+      "correct": "Abraham Lincoln"
+    }
+  },
+  {
+    "quest": "What ancient civilization built the pyramids?",
+    "ans": {
+      "wrong1": "Romans",
+      "wrong2": "Greeks",
+      "wrong3": "Mayans",
+      "correct": "Egyptians"
+    }
+  },
+  {
+    "quest": "What country was Adolf Hitler the leader of?",
+    "ans": {
+      "wrong1": "Russia",
+      "wrong2": "France",
+      "wrong3": "Italy",
+      "correct": "Germany"
+    }
+  },
+  {
+    "quest": "Which U.S. state was the last to join the union?",
+    "ans": {
+      "wrong1": "Alaska",
+      "wrong2": "Texas",
+      "wrong3": "New Mexico",
+      "correct": "Hawaii"
+    }
+  },
+  {
+    "quest": "What historical wall divided Berlin during the Cold War?",
+    "ans": {
+      "wrong1": "Great Wall of Germany",
+      "wrong2": "Cold War Wall",
+      "wrong3": "Iron Curtain",
+      "correct": "Berlin Wall"
+    }
+  },
+  {
+    "quest": "What famous document begins with 'We the People'?",
+    "ans": {
+      "wrong1": "Bill of Rights",
+      "wrong2": "Declaration of Independence",
+      "wrong3": "Emancipation Proclamation",
+      "correct": "U.S. Constitution"
+    }
+  },
+  {
+    "quest": "Who was the first man to walk on the moon?",
+    "ans": {
+      "wrong1": "Buzz Aldrin",
+      "wrong2": "Yuri Gagarin",
+      "wrong3": "Michael Collins",
+      "correct": "Neil Armstrong"
+    }
+  },
+  {
+    "quest": "What famous fortress-prison was stormed in the French Revolution?",
+    "ans": {
+      "wrong1": "Versailles",
+      "wrong2": "Notre Dame",
+      "wrong3": "The Louvre",
+      "correct": "The Bastille"
+    }
+  },
+  {
+    "quest": "Who was known as the 'Iron Lady'?",
+    "ans": {
+      "wrong1": "Angela Merkel",
+      "wrong2": "Indira Gandhi",
+      "wrong3": "Hillary Clinton",
+      "correct": "Margaret Thatcher"
+    }
+  },
+  {
+    "quest": "Where did the Olympic Games originate?",
+    "ans": {
+      "wrong1": "Rome",
+      "wrong2": "Egypt",
+      "wrong3": "Persia",
+      "correct": "Greece"
+    }
+  },
+  {
+    "quest": "Who was president of the U.S. during most of World War II?",
+    "ans": {
+      "wrong1": "Herbert Hoover",
+      "wrong2": "Harry S. Truman",
+      "wrong3": "Woodrow Wilson",
+      "correct": "Franklin D. Roosevelt"
+    }
+  },
+  {
+    "quest": "What medieval event wiped out a third of Europe’s population?",
+    "ans": {
+      "wrong1": "The Crusades",
+      "wrong2": "Great Fire of London",
+      "wrong3": "Hundred Years’ War",
+      "correct": "The Black Plague"
+    }
+  }
 ]
 

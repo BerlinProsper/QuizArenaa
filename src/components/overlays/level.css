@@ -1,0 +1,9 @@
+.level-text {
+
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;      /* Very large text */
+  font-weight: 800;     /* Extra bold */
+  text-align: center;
+  line-height: 1.2;
+  color:rgb(22, 81, 110);
+}

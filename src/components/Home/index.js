@@ -1,4 +1,4 @@
- import React, { useState } from 'react';
+ import React, { useEffect, useState } from 'react';
  import { useMyContext } from '../../context/Mycontexts';
  import "./style.css";
  import styled from "@emotion/styled";
@@ -8,36 +8,39 @@ import { useNavigate } from 'react-router-dom';
 
 
 const Chip = styled.span`
-
-  display: inline-block; 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   background: #bee7e4ff;
-  padding: 4px;
+  padding: 10px;
   margin: 4px;
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #033330ff;
+
   & > span {
-    margin-right: 8px;
+    margin: 0 auto;
   }
+
   &:hover {
     cursor: pointer;
     background: #47b9b2ff;
   }
 `;
 
-const SelectedChip = styled.span`
-
-  display: inline-block; 
-  border-radius: 10px;
+const SelectedChip = styled(Chip)`
   background: #136a64ff;
-  padding: 4px;
-  margin: 4px;
-  & > span {
-    margin-right: 8px;
-  }
+
   &:hover {
-    cursor: pointer;
     background: #22938cff;
   }
 `;
+
 
  export default function Home() {
   const { alert, setAlert, isLogin, setIsLogin , categoriesData, setSelectedItems, selectedItems , setNoItems} = useMyContext();
@@ -45,7 +48,10 @@ const SelectedChip = styled.span`
     setSelectedItems(selectedItems.filter((item) => item.id !== id));
   };
 console.log("selectedItems", selectedItems  );
-
+useEffect(() => {
+setSelectedItems([]);
+setNoItems(0);
+}, []);
   
           const navigate = useNavigate();
   return (
@@ -55,42 +61,39 @@ console.log("selectedItems", selectedItems  );
         style={{
       color: '#074844ff',
       fontFamily: '"Montserrat", "Arial", sans-serif',
-      fontSize: '1rem',
+      fontSize: '1.5rem',
       marginBottom: '16px',
       textAlign: 'center',
+      fontWeight: '600',
       width: '100%',
         }}
       >
         Select three topics you love
       </h2>
       <Categories />
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
-        {categoriesData.map(({ id, name }) => {
-        const isSelectedChip = selectedItems.some(item => item.id === id);
-        if (isSelectedChip) {
-          return (
-          <SelectedChip
-            className="selectedChip"
-            key={id}
-            onClick={e => {
-            e.stopPropagation();
+    <div className="category-grid">
+  {categoriesData.map(({ id, name }) => {
+    const isSelectedChip = selectedItems.some(item => item.id === id);
+    const ChipComponent = isSelectedChip ? SelectedChip : Chip;
+
+    return (
+      <ChipComponent
+        key={id}
+        onClick={e => {
+          e.stopPropagation();
+          if (isSelectedChip) {
             onClickDeleteItem(id);
-            }}
-          >
-            <span>{name}</span>
-          </SelectedChip>
-          );
-        }
-        return (
-          <Chip
-          className="chip"
-          key={id}
-          onClick={() => setSelectedItems([...selectedItems, { id, name }])}
-          >
-          <span>{name}</span>
-          </Chip>
-        );
-        })}
+          } else {
+            setSelectedItems([...selectedItems, { id, name }]);
+          }
+        }}
+      >
+        <span>{name}</span>
+      </ChipComponent>
+    );
+  })}
+</div>
+
 
 <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '32px' }}>
           <button
@@ -124,9 +127,7 @@ console.log("selectedItems", selectedItems  );
 
 
       </div>
-      </div>
-  
-    );
+  );
  }
  const styles = {
 

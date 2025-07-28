@@ -15,6 +15,7 @@ import Categories from "./components/Categories/index.js";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GameSpace from "./components/GameSpace/index.js";
+import { AddRounded } from "@mui/icons-material";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -85,3 +86,13 @@ return (
 }
 
 export default App;
+
+
+
+//Timer icon for next level - on Timer off- Game over
+//Congratulations on each level complete & if u beat highscore or ur best score
+//next level instruction card
+//score board and profile board.
+//And Guid board about levels and how to play
+//Add more category quetions
+
